@@ -1,0 +1,1678 @@
+<!DOCTYPE html>
+<html class="mf" lang="ru-RU">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gardium-bx-site-redesign</title>
+    <link rel="stylesheet" href="../../css/style.css" media="screen"><!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script type="text/javascript" src="../../js/core.js"></script>
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="page-header__top">
+        <div class="container">
+          <div class="row-lp-xs">
+            <div class="col-1-4-lg col-lp-1-2-xs"><a class="page-header__logo" href="/"><img src="../../assets/images/logos/logo.png" width="213" height="71" alt="Гардиум - патентные поверенные и судебные адвокаты"></a></div>
+            <div class="col-1-2-lg hide-up-to-lg">
+              <div class="page-header__locations-block">
+                <div class="page-header__slogan-title">Надёжность и ответственность в Федеральном Масштабе</div>
+                <div class="page-header__row">
+                  <div class="page-header__address-block">
+                    <address class="page-header__address">Центральный офис: Москва,<br> Рязанский проспект, 75к4</address>
+                    <div><a class="link-unstyled" href="tel:+74956658258">+7 495 665-82-58</a></div><a class="page-header__map-link js-fancy-modal-lp-lg" href="#road-map">Схема проезда</a>
+                  </div>
+                  <div class="page-header__address-block">
+                    <div class="page-header__region-offices">
+                      <address class="page-header__address">Офис в вашем городе:
+                        <div class="page-header__city-info"><span class="page-header__address-icon">
+                                <svg width="11" height="13">
+                                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-map--red"></use>
+                                </svg></span><a class="page-header__city-link" href="#"><span class="js-tooltip-city js-tooltip-city--header" data-tooltip-content="#tooltip-content-city-list">Санкт-Петербург </span></a></div>Синопская набережная,&nbsp;22
+                        <div class="city-list-content">
+                          <ul class="city-list" id="tooltip-content-city-list">
+                            <li><a class="city-list__link" href="#">Воронеж</a><span>, ул. Никитинская, д. 42</span></li>
+                            <li><a class="city-list__link" href="#">Екатеринбург</a><span>, ул.Хохрякова, д.10</span></li>
+                            <li><a class="city-list__link" href="#">Нижний Новгород</a><span>, ул. Ковалихинская, д. 8</span></li>
+                            <li><a class="city-list__link" href="#">Казань</a><span>, ул. Право-Булачная, д. 35/2</span></li>
+                            <li><a class="city-list__link" href="#">Саратов</a><span>, ул. Московская, д. 55</span></li>
+                            <li><a class="city-list__link" href="#">Уфа</a><span>, ул. Первомайская, д. 29</span></li>
+                            <li><a class="city-list__link" href="#">Ростов-на-Дону</a><span>, ул. 50-летия Ростсельмаша, 1/52</span></li>
+                            <li><a class="city-list__link" href="#">Ярославль</a><span>, ул. Некрасова, д. 41</span></li>
+                          </ul>
+                        </div>
+                      </address>
+                    </div><a class="page-header__map-link js-fancy-modal-lp-lg" href="#road-map">Схема проезда</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1-4-lg col-lp-1-2-xs">
+              <div class="page-header__contacts js-show-callback-form">
+                <address class="page-header__phone"><a href="tel:+74956658258">+7 (495) 665-82-58</a></address>
+                <div class="page-header__callback-wrapper">
+                  <button class="page-header__callback-btn js-show-callback-form__btn" type="button">Заказать звонок</button>
+                  <div class="page-header__callback-popup is-hidden js-show-callback-form__form">
+                    <button class="page-header__callback-popup-close js-show-callback-form__close-btn" type="button">Закрыть</button>
+                    <form class="form form--mt0 form--call-order js-form">
+                      <div class="form-row form-row--pb0">
+                        <div class="form-col form-col--pt20">
+                          <div class="form-input form-input--text">
+                            <label for="form-input-10-1">Ваше имя<span class="asterisk">*</span></label>
+                            <input id="form-input-10-1" type="text" required>
+                          </div>
+                        </div>
+                        <div class="form-col form-col--pb0">
+                          <div class="form-input form-input--text">
+                            <label for="form-input-10-2">Телефон<span class="asterisk">*</span></label>
+                            <input id="form-input-10-2" type="text" placeholder="+7 (925) 490-22-10" required>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-row form-row--pt0">
+                        <div class="form-col">
+                          <div class="form-input form-input--button">
+                            <button class="btn btn-full js-form-submit" type="button">Заказать</button>
+                          </div>
+                        </div>
+                        <div class="form-col">
+                          <div class="form-input form-input--check-footer js-form-privacy-agree">
+                            <label class="input-checkbox">
+                              <input id="form-input-1-17" type="checkbox" checked><span class="js-form-privacy-agree-short">Соглашаюсь на
+                                <button class="dotted js-form-privacy-agree-responsive-btn" type="button" target="_blank"><span>обработку персональных данных</span></button></span><span class="hide-xs js-form-privacy-agree-full">Нажимая кнопку «Заказать услугу», я принимаю условия <a href="#" target="_blank">Пользовательского соглашения</a> и даю своё согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных <a href="#" target="_blank">Политикой конфиденциальности</a><br> 
+                                <button class="input-checkbox__close-btn dotted js-form-privacy-agree-close-btn" type="button"><span>Скрыть</span></button></span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="main-nav js-main-nav">
+        <div class="main-nav__inner container">
+          <button class="main-nav__menu-btn js-main-nav__btn" type="button"><span class="main-nav__menu-icon"><svg width="15" height="13"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-hamburger"></use></svg><span class="main-nav__menu-text-link">Меню</span></span></button>
+          <!--a.main-nav__full-version-link(href="#") Полная версия сайта--><a class="main-nav__phone" href="tel:+74956658258">+7 (495) 665-82-58</a>
+          <ul class="main-nav__list js-main-nav__list">
+            <li class="main-nav__item"><a class="main-nav__link" href="">О нас</a>
+              <div class="main-nav__dropdown">
+                <ul class="main-nav__dropdown-list">
+                  <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/o-nas/patentnye-poverennye/">Патентные поверенные</a></li>
+                  <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/o-nas/urist-po-intellektualnoi-sobstvennosti/">Юристы по<br> интеллектуальной<br> собственности</a></li>
+                  <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/praktika/">Практика</a></li>
+                  <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/o-nas/gardium-wiseadvice-otzyvy-sotrudnikov/">Карьера</a></li>
+                  <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/information/publications/">Публикации в СМИ</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="main-nav__item"><a class="main-nav__link" href="../price-page/index.html">Услуги и цены</a>
+              <div class="main-nav__mobile-subsection">
+                <ul class="main-nav__mobile-list">
+                  <li class="main-nav__mobile-item"><a class="main-nav__mobile-link" href="../price-page/index.html#rere">знаки</a></li>
+                  <li class="main-nav__mobile-item"><a class="main-nav__mobile-link" href="#">патенты</a></li>
+                  <li class="main-nav__mobile-item"><a class="main-nav__mobile-link" href="#">программы</a></li>
+                  <li class="main-nav__mobile-item"><a class="main-nav__mobile-link" href="#">договоры</a></li>
+                  <li class="main-nav__mobile-item"><a class="main-nav__mobile-link" href="#">споры</a></li>
+                </ul>
+              </div>
+              <div class="main-nav__dropdown">
+                <div class="main-nav__dropdown-row">
+                  <div class="main-nav__dropdown-col"><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/services/trademarks/">Товарные знаки</a>
+                    <ul class="main-nav__dropdown-list">
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/trademarks/proverka-tovarnogo-znaka/">Проверка в Роспатенте</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/trademarks/registraciya-tovarnogo-znaka/">Регистрация товарного знака в РФ</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/trademarks/uskorennaya-registraciya-tovarnogo-znaka/">Ускоренная регистрация</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/trademarks/mezhdunarodnaya-registraciya-tovarnogo-znaka/">Международная регистрация</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/trademarks/tamozhennyi-reestr-obektov-intellektualnoi-sobstvennosti-trois/">Внесение в ТРОИС ФТС</a></li>
+                    </ul><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/services/patent/">Патентование</a>
+                    <ul class="main-nav__dropdown-list">
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/patent/izobretenie/">Изобретение</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/patent/poleznaya-model/">Полезная модель</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/patent/promyshlennyi-obrazec/">Промышленный образец</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/patent/proverka-patentnoi-chistoty/">Патентные исследования</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/patent/mezhdunarodnoe-patentovane/">Международное патентование</a></li>
+                    </ul><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/services/programms/">Программы и базы данных</a>
+                    <ul class="main-nav__dropdown-list">
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/programms/patentovanie-reshenii-v-sfere-it/">Патент на IT решения и сайты</a></li>
+                    </ul>
+                  </div>
+                  <div class="main-nav__dropdown-col"><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/services/spory/">Споры: защита прав</a>
+                    <ul class="main-nav__dropdown-list">
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/spory/patentnye-spory/">Защита в Палате по патентным спорам (ППС)</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/spory/sud-po-intellektualnym-pravam/">Защита в Суде по интеллектуальным правам (СИП)</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/spory/zashhita-klienta-v-arbitrazhnom-sude/">Защита в арбитражном суде</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/spory/zashhita-v-federalnoi-antimonopolnoi-sluzhbe/">Защита интересов в Антимонопольной службе (ФАС)</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/spory/nezakonnoe-ispolzovanie-tovarnogo-znaka/">Защита при нарушении прав на товарный знак</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/spory/">Защита при нарушении прав на патент</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/programms/spory-v-sfere-it/">Защита при нарушении прав на программы</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/spory/zashhita-delovoi-reputacii-chesti-i-dostoinstva/">Защита чести, достоинства, деловой репутации</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/spory/narushenie-patentnyh-prav-i-vzyskanie-kompensacii/">Взыскание компенсации</a></li>
+                    </ul><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/services/registraciya-dogovorov/">Договоры: передача прав</a>
+                    <ul class="main-nav__dropdown-list">
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/registraciya-dogovorov/licenzionnyi-dogovor/">Лицензионный договор</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/registraciya-dogovorov/registraciya-dogovora-kommercheskoi-koncessii/">Франчайзинг (коммерческая концессия)</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/registraciya-dogovorov/dogovor-otchuzhdeniya/">Отчуждение прав</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/registraciya-dogovorov/peredacha-iskluchitelnyh-prav/">Сопровождение сделок</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="main-nav__item"><a class="main-nav__link" href="">Клиенты</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="">Инфо</a>
+              <div class="main-nav__dropdown">
+                <ul class="main-nav__dropdown-list">
+                  <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/information/blog/">Блог</a></li>
+                  <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/information/faq/">Частые вопросы</a></li>
+                  <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/news/">Новости</a></li>
+                  <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/information/publications/">Публикации в СМИ</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="main-nav__item"><a class="main-nav__link" href="">Контакты</a></li>
+          </ul>
+          <div class="page-header__search">
+            <form class="page-header__search-form">
+              <input class="page-header__search-input" type="search" placeholder="Поиск по сайту">
+              <button class="page-header__search-btn" type="submit">Найти
+                      <svg width="14" height="14">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-search-v2"></use>
+                      </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="main-slider">
+      <div class="main-slider__items js-main-slider">
+        <div class="main-slider__item main-slider__item--reliability">
+          <div class="main-slider__container container">
+            <div class="main-slider__inner">
+              <div class="main-slider__left">
+                <ul class="main-slider__features">
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Консалтинговая группа WiseAdvice образована в 2003 году. С 2004 года в группе начало работу Патентное бюро.">10 лет на рынке</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Нам доверяют крупнейшие Российские и международные компании, средний и малый бизнес, а также ученые.">Более 5000 клиентов</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Удовлетворенность каждого клиента исследуется по методике Customer Satisfaction Index (CSI)">Оценка удовлетворенности CSI 4,7 из 5</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Полис №ОК26-140400530/1/WV-D22 от 30 апреля 2014 года выдан ОАО Страховая компания «Альянс»">Полис страхования 10 млн. руб.</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Мы используем специально разработанную автоматизированную систему делопроизводства для исключения риска совершения ошибок.">Автоматизированное делопроизводство</span></li>
+                </ul>
+              </div>
+              <div class="main-slider__right"><a class="main-slider__slogan" href="">
+                  <div class="main-slider__slogan-title">Наивысшая надежность и&nbsp;ответственность<br> <span class="main-slider__slogan-subtitle">В федеральном масштабе</span></div></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="main-slider__item main-slider__item--defense">
+          <div class="main-slider__container container">
+            <div class="main-slider__inner row">
+              <div class="main-slider__left">
+                <ul class="main-slider__features">
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Консалтинговая группа WiseAdvice образована в 2003 году. С 2004 года в группе начало работу Патентное бюро.">10 лет на рынке</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Нам доверяют крупнейшие Российские и международные компании, средний и малый бизнес, а также ученые.">Более 5000 клиентов</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Удовлетворенность каждого клиента исследуется по методике Customer Satisfaction Index (CSI)">Оценка удовлетворенности CSI 4,7 из 5</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Полис №ОК26-140400530/1/WV-D22 от 30 апреля 2014 года выдан ОАО Страховая компания «Альянс»">Полис страхования 10 млн. руб.</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Мы используем специально разработанную автоматизированную систему делопроизводства для исключения риска совершения ошибок.">Автоматизированное делопроизводство</span></li>
+                </ul>
+              </div>
+              <div class="main-slider__right"><a class="main-slider__slogan" href="">
+                  <div class="main-slider__slogan-title">Гарантированная<br> защита<br> <span class="main-slider__slogan-subtitle">в Роспатенте и суде</span></div></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="main-slider__item main-slider__item--confidentiality">
+          <div class="main-slider__container container">
+            <div class="main-slider__inner row">
+              <div class="main-slider__left">
+                <ul class="main-slider__features">
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Консалтинговая группа WiseAdvice образована в 2003 году. С 2004 года в группе начало работу Патентное бюро.">10 лет на рынке</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Нам доверяют крупнейшие Российские и международные компании, средний и малый бизнес, а также ученые.">Более 5000 клиентов</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Удовлетворенность каждого клиента исследуется по методике Customer Satisfaction Index (CSI)">Оценка удовлетворенности CSI 4,7 из 5</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Полис №ОК26-140400530/1/WV-D22 от 30 апреля 2014 года выдан ОАО Страховая компания «Альянс»">Полис страхования 10 млн. руб.</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Мы используем специально разработанную автоматизированную систему делопроизводства для исключения риска совершения ошибок.">Автоматизированное делопроизводство</span></li>
+                </ul>
+              </div>
+              <div class="main-slider__right"><a class="main-slider__slogan" href="">
+                  <div class="main-slider__slogan-title">Полная конфиденциальность<br> <span class="main-slider__slogan-subtitle">информация под защитой</span></div></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="section section--gray">
+      <div class="container">
+        <h2 class="section__title">Услуги и цены на патентование изобретений</h2>
+        <p>Специалисты ФПБ «Гардиум» имеют большой положительный опыт регистрации интеллектуальной области по различным категориям проектов. Нашими услугами пользуются крупнейшие международные производственные предприятия и корпорации. Наши специалисты ответят на вопросы, как оформляются патенты на изобретения в России и других странах.<br> В зависимости о приоритетов Вы сможете выбрать наиболее подходящий пакет услуг:</p>
+        <div class="pricing-features pricing-features--after-text-block row-lg">
+          <div class="pricing-feature col-1-3-lg">
+            <div class="pricing-feature__icon pricing-feature__icon--wallet"><svg width="35" height="30"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-wallet"></use></svg></div>
+            <div class="pricing-feature__text">
+              <h3 class="pricing-feature__title">Стоимость</h3>
+              <p>Подойдет, если у Вас безупречно чистый патент и Вы готовы взять на&nbsp;себя риски доплаты за дополнительные работы.</p>
+            </div>
+          </div>
+          <div class="pricing-feature col-1-3-lg">
+            <div class="pricing-feature__icon pricing-feature__icon--lock"><svg width="26" height="37"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-lock"></use></svg></div>
+            <div class="pricing-feature__text">
+              <h3 class="pricing-feature__title">Надежность</h3>
+              <p>Если Вы хотите передать полностью регистрацию своего патента в руки профессионалам, максимально защитив себя от риска отказа в регистрации.</p>
+            </div>
+          </div>
+          <div class="pricing-feature col-1-3-lg">
+            <div class="pricing-feature__icon pricing-feature__icon--globe"><svg width="27" height="35"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-globe"></use></svg></div>
+            <div class="pricing-feature__text">
+              <h3 class="pricing-feature__title">Вне России</h3>
+              <p>Если Вы хотите использовать свое изобретение на международном рынке. Международное патентование изобретений по процедуре PCT.</p>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-plans pricing-plans--three-items js-equal-height">
+          <div class="js-prices-slider row-lg">
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Патентование в&nbsp;России</span></h3>
+              <div class="pricing-plan__content">
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Проверка патентной чистоты решения</li>
+                  <li>Оценка патентоспособности решения</li>
+                  <li>Проведение поиска, подбор аналогов</li>
+                  <li>Консультация по доработке решения</li>
+                  <li>Подготовка заявки, формулы, реферата, чертежей</li>
+                  <li>Оплата пошлин</li>
+                  <li>Подача заявки в ФИПС</li>
+                  <li>Расширенное делопроизводство</li>
+                  <li>Ответы на запросы и уведомления</li>
+                  <li>Получение решения о регистрации</li>
+                  <li>Получение оригинала патента</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price pricing-plan__price--sm-col">от <span class="pricing-plan__price-number">123&nbsp;600</span> руб<br> <span class="pricing-plan__price-number">24</span> месяца</div>
+                  <div class="pricing-plan__btns">
+                    <div class="pricing-plan__btn"><a class="dotted js-fancy-modal" href="#patenting-cost-calculator">Калькулятор для экспертов</a></div>
+                  </div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn js-fancy-modal-sm" href="#order-form">Заказать</a></div>
+              </div>
+            </div>
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Патент в&nbsp;России + Весь мир</span></h3>
+              <div class="pricing-plan__content">
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Проверка патентной чистоты решения</li>
+                  <li>Оценка патентоспособности решения</li>
+                  <li>Проведение поиска, подбор аналогов</li>
+                  <li>Консультация по доработке решения</li>
+                  <li>Подготовка заявки, формулы, реферата, чертежей</li>
+                  <li>Оплата пошлин</li>
+                  <li>Подача заявки в ФИПС</li>
+                  <li>Подача международной заявки в МБ ВОИС</li>
+                  <li>Расширенное делопроизводство</li>
+                  <li>Ответы на запросы и уведомления</li>
+                  <li>Получение решения о регистрации в России</li>
+                  <li>Получение оригинала патента</li>
+                  <li>Международная публикация в базе МБ ВОИС</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price pricing-plan__price--sm-col">от <span class="pricing-plan__price-number">148&nbsp;200</span> руб<br> <span class="pricing-plan__price-number">24</span> месяца</div>
+                  <div class="pricing-plan__btns">
+                    <div class="pricing-plan__btn"><a class="dotted js-fancy-modal" href="#patenting-cost-calculator">Калькулятор для экспертов</a></div>
+                  </div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="js-fancy-modal-sm btn" href="#order-form">Заказать</a></div>
+              </div>
+            </div>
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Патентование в&nbsp;России + СНГ</span></h3>
+              <div class="pricing-plan__content">
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Проверка патентной чистоты решения</li>
+                  <li>Оценка патентоспособности решения</li>
+                  <li>Проведение поиска, подбор аналогов</li>
+                  <li>Консультация по доработке решения</li>
+                  <li>Подготовка заявки, формулы, реферата, чертежей</li>
+                  <li>Оплата пошлин</li>
+                  <li>Подача заявки в ФИПС</li>
+                  <li>Подача международной заявки в Евразийское патентное ведомство</li>
+                  <li>Расширенное делопроизводство</li>
+                  <li>Ответы на запросы и уведомления</li>
+                  <li>Получение решения о регистрации в России, оригинала патента</li>
+                  <li>Получение решения о регистрации в СНГ, оригинала Евразийского патента</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price pricing-plan__price--before-btn">от <span class="pricing-plan__price-number">168&nbsp;600</span> руб<br> от <span class="pricing-plan__price-number">24</span> месяцев</div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="js-fancy-modal-sm btn" href="#order-form">Заказать</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr style="height: 70px; margin: 0; border: 0;">
+    <section class="section section--gray">
+      <div class="container">
+        <h2 class="section__title" id="prices">Сроки и стоимость регистрации товарного знака</h2>
+        <p>Выберите, пожалуйста, что является для Вас наиболее важным:</p>
+        <div class="pricing-features pricing-features--after-text-block row-lg">
+          <div class="pricing-feature col-1-3-lg">
+            <div class="pricing-feature__icon pricing-feature__icon--clock"><svg width="32" height="32"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-clock"></use></svg></div>
+            <div class="pricing-feature__text">
+              <h3 class="pricing-feature__title">Сроки</h3>
+              <p>Стандартные сроки государственной регистрации товарного знака в Роспатенте составляют до 18 месяцев, если обозначение абсолютно чистое. Мы же имеем эксклюзивную возможность зарегистрировать Ваш товарный знак за <a href="">10 месяцев</a>!</p>
+            </div>
+          </div>
+          <div class="pricing-feature col-1-3-lg">
+            <div class="pricing-feature__icon pricing-feature__icon--lock"><svg width="26" height="37"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-lock"></use></svg></div>
+            <div class="pricing-feature__text">
+              <h3 class="pricing-feature__title">Надежность</h3>
+              <p>Стоимость регистрации товарного знака складывается из гос.пошлин и тарифов (они у всех одинаковые), а также из стоимости услуг патентных поверенных. Наше бюро предлагает Вам различные пакеты услуг – от <a href="">самых дешевых</a> до «<a href="">все включено</a>».</p>
+            </div>
+          </div>
+          <div class="pricing-feature col-1-3-lg">
+            <div class="pricing-feature__icon pricing-feature__icon--wallet"><svg width="35" height="30"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-wallet"></use></svg></div>
+            <div class="pricing-feature__text">
+              <h3 class="pricing-feature__title">Стоимость</h3>
+              <p>Подходит для тех, кто хочет расширить права на товарный знак в новых классах МКТУ. А также для изменения существующего знака.</p>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-plans pricing-plans--three-items js-equal-height">
+          <div class="js-prices-slider row-lg">
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Форсаж</span></h3>
+              <div class="pricing-plan__content">
+                <p>Все характеристики продукта «Все включено», а также:</p>
+                <ul class="cross-marker-list pricing-plan__features">
+                  <li>Ускоренное проведение поиска (3 дня)</li>
+                  <li>Ускоренная процедура регистрации (10 месяцев)</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price pricing-plan__price--md-col">от <span class="pricing-plan__price-number">175&nbsp;200</span> руб<br> <span class="pricing-plan__price-number">10</span> месяцев</div>
+                  <div class="pricing-plan__btns">
+                    <div class="pricing-plan__btn"><a href="">Подробная информация</a></div>
+                    <div class="pricing-plan__btn"><a class="dotted js-fancy-modal" href="#trademark-registration-cost-calculator">Рассчитать</a></div>
+                  </div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать</a></div>
+              </div>
+            </div>
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Все включено</span></h3>
+              <div class="pricing-plan__content">
+                <p>В цену включены все <a href="">стандартные</a> процедуры регистрации, а также:</p>
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Расширенный поиск (10 дней)</li>
+                  <li>Ответы на уведомления и запросы экспертизы</li>
+                  <li>Отстаивание интересов в Палате по патентным спорам</li>
+                  <li>Участие в экспертных заседаниях</li>
+                  <li>Уровень сервиса «Люкс»</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price pricing-plan__price--md-col">от <span class="pricing-plan__price-number">44&nbsp;500</span> руб<br> <span class="pricing-plan__price-number">18</span> месяцев</div>
+                  <div class="pricing-plan__btns">
+                    <div class="pricing-plan__btn"><a href="">Подробная информация</a></div>
+                    <div class="pricing-plan__btn"><a class="dotted js-fancy-modal" href="#trademark-registration-cost-calculator">Рассчитать</a></div>
+                  </div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать</a></div>
+              </div>
+            </div>
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title pricing-plan__title--no-padding js-equal-height__block"><span>Дешевле не бывает</span></h3>
+              <div class="pricing-plan__content">
+                <p>Когда не требуется проверка товарного знака</p>
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Оформление и подача заявки в ФИПС</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price pricing-plan__price--md-col">от <span class="pricing-plan__price-number">18&nbsp;200</span> руб<br> <span class="pricing-plan__price-number">18</span> месяцев</div>
+                  <div class="pricing-plan__btns">
+                    <div class="pricing-plan__btn"><a href="">Подробная информация</a></div>
+                    <div class="pricing-plan__btn"><a class="dotted js-fancy-modal" href="#trademark-registration-cost-calculator">Рассчитать</a></div>
+                  </div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr style="height: 70px; margin: 0; border: 0;">
+    <section class="section section--gray">
+      <div class="container">
+        <h2 class="section__title">Услуги и цены</h2>
+        <p>Специалисты ФПБ «Гардиум» имеют большой положительный опыт регистрации интеллектуальной области по различным категориям проектов. Нашими услугами пользуются крупнейшие международные производственные предприятия и корпорации. Наши специалисты ответят на вопросы, как оформляются патенты на изобретения в России и других странах.<br> Выберите объект, который надо запатентовать:</p>
+        <div class="pricing-plans pricing-plans--three-items pricing-plans--after-text-block js-equal-height">
+          <div class="js-prices-slider row-lg">
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Изобретение</span></h3>
+              <div class="pricing-plan__content">
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Проверка патентной чистоты решения</li>
+                  <li>Оценка патентоспособности решения</li>
+                  <li>Проведение поиска, подбор аналогов</li>
+                  <li>Консультация по доработке решения</li>
+                  <li>Подготовка заявки, формулы, реферата, чертежей</li>
+                  <li>Оплата пошлин</li>
+                  <li>Подача заявки в ФИПС</li>
+                  <li>Расширенное делопроизводство</li>
+                  <li>Ответы на запросы и уведомления</li>
+                  <li>Получение решения о регистрации</li>
+                  <li>Получение оригинала патента</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price pricing-plan__price--sm-col">от <span class="pricing-plan__price-number">123&nbsp;600</span> руб<br> <span class="pricing-plan__price-number">24</span> месяца</div>
+                  <div class="pricing-plan__btns">
+                    <div class="pricing-plan__btn"><a class="dotted js-fancy-modal" href="#patenting-cost-calculator">Калькулятор для экспертов</a></div>
+                  </div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать</a></div>
+              </div>
+            </div>
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Полезная модель</span></h3>
+              <div class="pricing-plan__content">
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Проверка патентной чистоты решения</li>
+                  <li>Оценка патентоспособности решения</li>
+                  <li>Проведение поиска, подбор аналогов</li>
+                  <li>Консультация по доработке решения</li>
+                  <li>Подготовка заявки, формулы, реферата, чертежей</li>
+                  <li>Оплата пошлин</li>
+                  <li>Подача заявки в ФИПС</li>
+                  <li>Расширенное делопроизводство</li>
+                  <li>Ответы на запросы и уведомления</li>
+                  <li>Получение решения о регистрации</li>
+                  <li>Получение оригинала патента</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price pricing-plan__price--sm-col">от <span class="pricing-plan__price-number">117&nbsp;400</span> руб<br> от <span class="pricing-plan__price-number">8</span> месяцев</div>
+                  <div class="pricing-plan__btns">
+                    <div class="pricing-plan__btn"><a class="dotted js-fancy-modal" href="#patenting-cost-calculator">Калькулятор для экспертов</a></div>
+                  </div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать</a></div>
+              </div>
+            </div>
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Промышленный образец</span></h3>
+              <div class="pricing-plan__content">
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Оценка патентоспособности решения</li>
+                  <li>Проверка по базе промышленных образцов</li>
+                  <li>Проверка по базе товарных знаков</li>
+                  <li>Консультация по доработке решения</li>
+                  <li>Подготовка заявки, чертежей</li>
+                  <li>Оплата пошлин</li>
+                  <li>Подача заявки в ФИПС</li>
+                  <li>Расширенное делопроизводство</li>
+                  <li>Ответы на запросы и уведомления</li>
+                  <li>Получение решения о регистрации</li>
+                  <li>Получение оригинала патента</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price pricing-plan__price--sm-col">от <span class="pricing-plan__price-number"> 94&nbsp;400</span> руб<br> <span class="pricing-plan__price-number">10</span> месяцев</div>
+                  <div class="pricing-plan__btns">
+                    <div class="pricing-plan__btn"><a class="dotted js-fancy-modal" href="#patenting-cost-calculator">Калькулятор для экспертов</a></div>
+                  </div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr style="height: 70px; margin: 0; border: 0;">
+    <section class="section section--gray">
+      <div class="container">
+        <h2 class="section__title">Услуги и цены на патентование<br> промышленного образца</h2>
+        <div class="pricing-features row-lg">
+          <div class="pricing-feature col-1-3-lg">
+            <div class="pricing-feature__icon pricing-feature__icon--wallet"><svg width="35" height="30"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-wallet"></use></svg></div>
+            <div class="pricing-feature__text">
+              <h3 class="pricing-feature__title">Стоимость</h3>
+              <p>Подойдет, если у Вас безупречно чистый патент и Вы готовы взять на себя риски доплаты за дополнительные работы.</p>
+            </div>
+          </div>
+          <div class="pricing-feature col-1-3-lg">
+            <div class="pricing-feature__icon pricing-feature__icon--lock"><svg width="26" height="37"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-lock"></use></svg></div>
+            <div class="pricing-feature__text">
+              <h3 class="pricing-feature__title">Надежность</h3>
+              <p>Если Вы хотите передать полностью регистрацию своего патента в руки профессионалам, максимально защитив себя от риска отказа в регистрации.</p>
+            </div>
+          </div>
+          <div class="pricing-feature col-1-3-lg">
+            <div class="pricing-feature__icon pricing-feature__icon--globe"><svg width="27" height="35"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-globe"></use></svg></div>
+            <div class="pricing-feature__text">
+              <h3 class="pricing-feature__title">Вне России</h3>
+              <p>Если Вы хотите защитить дизайн своего изделия в иностранных государствах.</p>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-plans pricing-plans--three-items js-equal-height">
+          <div class="js-prices-slider row-lg">
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Патентование в России</span></h3>
+              <div class="pricing-plan__content">
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Оценка патентоспособности решения</li>
+                  <li>Проведение поиска среди объектов дизайна</li>
+                  <li>Проведение поиска по базам товарных знаков</li>
+                  <li>Консультация по доработке решения</li>
+                  <li>Подготовка заявки, чертежей</li>
+                  <li>Оплата пошлин</li>
+                  <li>Подача заявки на патентование в ФИПС</li>
+                  <li>Расширенное делопроизводство</li>
+                  <li>Ответы на запросы и уведомления</li>
+                  <li>Получение решения о регистрации</li>
+                  <li>Получение оригинала патента</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price pricing-plan__price--sm-col">от <span class="pricing-plan__price-number">94&nbsp;400</span> руб<br> от <span class="pricing-plan__price-number">10</span> месяцев</div>
+                  <div class="pricing-plan__btns">
+                    <div class="pricing-plan__btn"><a class="dotted js-fancy-modal" href="#patenting-cost-calculator">Калькулятор для экспертов</a></div>
+                  </div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать</a></div>
+              </div>
+            </div>
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Патент + товарный знак в России</span></h3>
+              <div class="pricing-plan__content">
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Оценка патентоспособности решения</li>
+                  <li>Проведение поиска среди объектов дизайна</li>
+                  <li>Проведение поиска по базам товарных знаков</li>
+                  <li>Консультация по доработке решения</li>
+                  <li>Подготовка заявки, чертежей</li>
+                  <li>Оплата пошлин</li>
+                  <li>Подача заявки на патентование промышленного образца в ФИПС</li>
+                  <li>Подача заявления на регистрацию товарного знака в ФИПС</li>
+                  <li>Расширенное делопроизводство</li>
+                  <li>Ответы на запросы и уведомления</li>
+                  <li>Получение решения о регистрации</li>
+                  <li>Получение оригинала патента</li>
+                  <li>Получение оригинала свидетельства на товарный знак</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price pricing-plan__price--sm-col">от <span class="pricing-plan__price-number">126&nbsp;350</span> руб<br> от <span class="pricing-plan__price-number">10</span> месяцев</div>
+                  <div class="pricing-plan__btns">
+                    <div class="pricing-plan__btn"><a class="dotted js-fancy-modal" href="#patenting-cost-calculator">Калькулятор для экспертов</a></div>
+                  </div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать</a></div>
+              </div>
+            </div>
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title pricing-plan__title--no-padding js-equal-height__block"><span>Патент в иностранном государстве</span></h3>
+              <div class="pricing-plan__content">
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Оценка патентоспособности решения</li>
+                  <li>Проведение поиска среди объектов дизайна</li>
+                  <li>Консультация по доработке решения</li>
+                  <li>Оплата пошлин</li>
+                  <li>Подача заявки на патентование промышленного образца в выбранной стране</li>
+                  <li>Делопроизводство</li>
+                  <li>Ответы на запросы</li>
+                  <li>Получение решений о регистрации</li>
+                  <li>Получение оригинала патента (для стран, в которых выдается оригинал)</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price pricing-plan__price--before-btn">от <span class="pricing-plan__price-number">157&nbsp;400</span> руб<br> от <span class="pricing-plan__price-number">8</span> месяцев</div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr style="height: 70px; margin: 0; border: 0;">
+    <section class="section section--gray">
+      <div class="container">
+        <h2 class="section__title">Услуги и цены</h2>
+        <p>Патентные поверенные нашего Патентного Бюро имеют большой положительный опыт патентования интеллектуальной области по различным категориям проектов. Нашими услугами в области защиты патентных прав пользуются крупнейшие международные производственные предприятия и корпорации.<br> В зависимости от приоритетов Вы сможете выбрать наиболее подходящий пакет услуг:</p>
+        <div class="pricing-features pricing-features--after-text-block row-lg">
+          <div class="pricing-feature col-1-3-lg">
+            <div class="pricing-feature__icon pricing-feature__icon--wallet"><svg width="35" height="30"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-wallet"></use></svg></div>
+            <div class="pricing-feature__text">
+              <h3 class="pricing-feature__title">Стоимость</h3>
+              <p>Подойдет, если у Вас безупречно чистый патент и Вы готовы взять на себя риски доплаты за дополнительные работы.</p>
+            </div>
+          </div>
+          <div class="pricing-feature col-1-3-lg">
+            <div class="pricing-feature__icon pricing-feature__icon--lock"><svg width="26" height="37"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-lock"></use></svg></div>
+            <div class="pricing-feature__text">
+              <h3 class="pricing-feature__title">Надежность</h3>
+              <p>Если Вы хотите передать полностью регистрацию своего патента в руки профессионалам, максимально защитив себя от риска отказа в регистрации.</p>
+            </div>
+          </div>
+          <div class="pricing-feature col-1-3-lg">
+            <div class="pricing-feature__icon pricing-feature__icon--globe"><svg width="27" height="35"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-globe"></use></svg></div>
+            <div class="pricing-feature__text">
+              <h3 class="pricing-feature__title">Вне России</h3>
+              <p>Если Вы хотите использовать свое изобретение на международном рынке. Международное патентование изобретений по процедуре PCT.</p>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-plans pricing-plans--three-items js-equal-height">
+          <div class="js-prices-slider row-lg">
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Патентование в&nbsp;России</span></h3>
+              <div class="pricing-plan__content">
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Проверка патентной чистоты решения</li>
+                  <li>Оценка патентоспособности решения</li>
+                  <li>Проведение поиска, подбор аналогов</li>
+                  <li>Консультация по доработке решения</li>
+                  <li>Подготовка заявки, формулы, реферата, чертежей</li>
+                  <li>Оплата пошлин</li>
+                  <li>Подача заявки в ФИПС</li>
+                  <li>Расширенное делопроизводство</li>
+                  <li>Ответы на запросы и уведомления</li>
+                  <li>Получение решения о регистрации</li>
+                  <li>Получение оригинала патента</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price pricing-plan__price--sm-col">от <span class="pricing-plan__price-number">117&nbsp;400</span> руб<br> <span class="pricing-plan__price-number">8</span> месяцев</div>
+                  <div class="pricing-plan__btns">
+                    <div class="pricing-plan__btn"><a class="dotted js-fancy-modal" href="#patenting-cost-calculator">Калькулятор для экспертов</a></div>
+                  </div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать</a></div>
+              </div>
+            </div>
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Патент в России + Весь мир</span></h3>
+              <div class="pricing-plan__content">
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Проверка патентной чистоты решения</li>
+                  <li>Оценка патентоспособности решения</li>
+                  <li>Проведение поиска, подбор аналогов</li>
+                  <li>Консультация по доработке решения</li>
+                  <li>Подготовка заявки, формулы, реферата, чертежей</li>
+                  <li>Оплата пошлин</li>
+                  <li>Подача заявки в ФИПС</li>
+                  <li>Подача международной заявки в МБ ВОИС</li>
+                  <li>Расширенное делопроизводство</li>
+                  <li>Ответы на запросы и уведомления</li>
+                  <li>Получение решения о регистрации в России</li>
+                  <li>Получение оригинала патента</li>
+                  <li>Международная публикация в базе МБ ВОИС</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price pricing-plan__price--sm-col">от <span class="pricing-plan__price-number">142&nbsp;200</span> руб<br> от <span class="pricing-plan__price-number">8</span> месяцев</div>
+                  <div class="pricing-plan__btns">
+                    <div class="pricing-plan__btn"><a class="dotted js-fancy-modal" href="#patenting-cost-calculator">Калькулятор для экспертов</a></div>
+                  </div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать</a></div>
+              </div>
+            </div>
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Международная публикация</span></h3>
+              <div class="pricing-plan__content">
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Подготовка заявки на базе имеющейся</li>
+                  <li>Оплата пошлин</li>
+                  <li>Подача заявки в МБ ВОИС патентное ведомство</li>
+                  <li>Делопроизводство</li>
+                  <li>Ответы на запросы МБ ВОИС</li>
+                  <li>Международная публикация</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price pricing-plan__price--sm-col">от <span class="pricing-plan__price-number"> 92&nbsp;200</span> руб<br> от <span class="pricing-plan__price-number">12</span> месяцев</div>
+                  <div class="pricing-plan__btns">
+                    <div class="pricing-plan__btn"><a class="dotted js-fancy-modal" href="#patenting-cost-calculator">Калькулятор для экспертов</a></div>
+                  </div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr style="height: 70px; margin: 0; border: 0;">
+    <section class="section section--gray">
+      <div class="container">
+        <h2 class="section__title">Продукты и тарифы</h2>
+        <p>В зависимости от Ваших потребностей мы предлагаем несколько вариантов внесения в единый таможенный реестр объектов интеллектуальной собственности:</p>
+        <div class="pricing-features pricing-features--after-text-block row-lg">
+          <div class="pricing-feature col-1-3-lg">
+            <div class="pricing-feature__icon pricing-feature__icon--file"><svg width="30" height="32"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-document"></use></svg></div>
+            <div class="pricing-feature__text">
+              <h3 class="pricing-feature__title">Есть доказательства</h3>
+              <p>Если Вы хотите включить товарный знак в Таможенный реестр и у Вас уже есть неоспоримые доказательства нарушения Ваших, в том числе ввоза на территорию России контрафактной продукции.</p>
+            </div>
+          </div>
+          <div class="pricing-feature col-1-3-lg">
+            <div class="pricing-feature__icon pricing-feature__icon--magnifier"><svg width="34" height="34"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-magnifier--small"></use></svg></div>
+            <div class="pricing-feature__text">
+              <h3 class="pricing-feature__title">Нет доказательств</h3>
+              <p>Мы подберем доказательства нарушения Ваших исключительных и гарантированно включим товарный знак в Таможенный реестр.</p>
+            </div>
+          </div>
+          <div class="pricing-feature col-1-3-lg">
+            <div class="pricing-feature__icon pricing-feature__icon--building"><svg width="25" height="37.97"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-building--small"></use></svg></div>
+            <div class="pricing-feature__text">
+              <h3 class="pricing-feature__title">Ввезен контрафакт</h3>
+              <p>Если Вы хотите привлечь к ответственности нарушителей Ваших прав на товарный знак: запретить использовать маркировку, взыскать компенсацию, исключить контрафактный товар из оборота.</p>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-plans pricing-plans--three-items js-equal-">
+          <div class="js-prices-slider row-lg">
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Стандарт</span></h3>
+              <div class="pricing-plan__content">
+                <p>На основании предоставленных документов, необходимых для включение в реестр, Бюро оказывает услуги:</p>
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Готовим заявление для включение знака в реестр</li>
+                  <li>Подаем заявление в Таможенную службу</li>
+                  <li>Ведем делопроизводство по заявлению</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price pricing-plan__price--before-btn">от <span class="pricing-plan__price-number">63&nbsp;800</span> руб<br> от <span class="pricing-plan__price-number">2</span> месяцев</div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать</a></div>
+              </div>
+            </div>
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Все включено</span></h3>
+              <div class="pricing-plan__content">
+                <p>Мы полностью берем включение Вашего товарного знака на себя и гарантируем достижение цели</p>
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Получаем справки из ФИПС или ВОИС</li>
+                  <li>Получаем полис страхования профессиональной ответственности</li>
+                  <li>Собираем или формируем доказательств нарушения Ваших прав</li>
+                  <li>Готовим заявление, подаем заявление в Таможенную службу</li>
+                  <li>Ведем делопроизводство по заявлению</li>
+                  <li>Готовим претензионные письма в адрес нарушителей</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price pricing-plan__price--before-btn">от <span class="pricing-plan__price-number">152&nbsp;000</span> руб<br> <span class="pricing-plan__price-number">2</span> месяца</div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать</a></div>
+              </div>
+            </div>
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Защита от контрафакта</span></h3>
+              <div class="pricing-plan__content">
+                <p>Мы защищаем Ваши интересы в случае ввоза на территорию России контрафактной продукции:</p>
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Готовим претензионные письма</li>
+                  <li>Готовим заявления о привлечении к административной ответственности</li>
+                  <li>Побуждаем таможенную службу возбудить административное дело</li>
+                  <li>Контролируем, чтобы весь ввозимый товар был изъят из оборота</li>
+                  <li>Готовим экспертное заключение о наличии нарушения прав</li>
+                  <li>Представляем интересы в Таможенной службе при рассмотрении дела о нарушении прав</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price pricing-plan__price--before-btn">от <span class="pricing-plan__price-number">153&nbsp;200</span> руб<br> от <span class="pricing-plan__price-number">2</span> месяцев</div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr style="height: 70px; margin: 0; border: 0;">
+    <section class="section section--gray">
+      <div class="container">
+        <h2 class="section__title">Услуги и цены</h2>
+        <p>В зависимости от тесноты взаимодействия сторон договора, достигнутых договоренностей, а также целей соглашения Вы можете выбрать наиболее подходящий пакет услуг.</p>
+        <div class="pricing-features pricing-features--after-text-block row-lg">
+          <div class="pricing-feature col-1-3-lg">
+            <div class="pricing-feature__icon"><svg width="34" height="27"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-briefcase--small"></use></svg></div>
+            <div class="pricing-feature__text">
+              <h3 class="pricing-feature__title">Есть договор</h3>
+              <p>Если стороны уже согласовали условия лицензионного договора и&nbsp;необходима оперативная регистрация лицензионного договора.</p>
+            </div>
+          </div>
+          <div class="pricing-feature col-1-3-lg">
+            <div class="pricing-feature__icon pricing-feature__icon--file"><svg width="30" height="32"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-document"></use></svg></div>
+            <div class="pricing-feature__text">
+              <h3 class="pricing-feature__title">Типовой договор</h3>
+              <p>Если стороны являются аффилированными лицами, передача исключительных прав по&nbsp;лицензионному договору происходит внутри группы компаний и является формальностью, соблюдаемой для оптимизации налогообложения и&nbsp;иных целей.</p>
+            </div>
+          </div>
+          <div class="pricing-feature col-1-3-lg">
+            <div class="pricing-feature__icon pricing-feature__icon--lock"><svg width="26" height="37"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-lock"></use></svg></div>
+            <div class="pricing-feature__text">
+              <h3 class="pricing-feature__title">Нет договора</h3>
+              <p>Если стороны заключают лицензионный договор с нуля. Данный пакет предусматривает углубленное изучение всех рисков и&nbsp;разработку наиболее безопасного договора, отвечающего потребностям клиента.</p>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-plans pricing-plans--three-items js-equal-height">
+          <div class="js-prices-slider row-lg">
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Регистрация</span></h3>
+              <div class="pricing-plan__content">
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Проверка отсутствия обременений, полномочий правообладателя</li>
+                  <li>Проверка лицензионного договора или представление стандартного проекта договора</li>
+                  <li>Оплата государственной пошлины</li>
+                  <li>Подача пакета документов на регистрацию в ФИПС</li>
+                  <li>Ведение делопроизводства</li>
+                  <li>Получение зарегистрированного договора</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price">от <span class="pricing-plan__price-number">28&nbsp;800</span> руб<br> от <span class="pricing-plan__price-number">2</span> месяцев</div>
+                  <div class="pricing-plan__btns">
+                    <div class="pricing-plan__btn"><a class="dotted js-fancy-modal" href="#rights-transfer-cost-calculator">Рассчитать</a></div>
+                  </div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать</a></div>
+              </div>
+            </div>
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Формальная сделка</span></h3>
+              <div class="pricing-plan__content">
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Подготовка лицензионного договора</li>
+                  <li>Оплата государственной пошлины</li>
+                  <li>Подача пакета документов на регистрацию в ФИПС</li>
+                  <li>Ведение делопроизводства</li>
+                  <li>Получение зарегистрированного договора</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price">от <span class="pricing-plan__price-number">25&nbsp;100</span> руб<br> от <span class="pricing-plan__price-number">2</span> месяцев</div>
+                  <div class="pricing-plan__btns">
+                    <div class="pricing-plan__btn"><a class="dotted js-fancy-modal" href="#rights-transfer-cost-calculator">Рассчитать</a></div>
+                  </div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать</a></div>
+              </div>
+            </div>
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Реальная<br> сделка</span></h3>
+              <div class="pricing-plan__content">
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Проверка отсутствия обременений объекта и полномочий правообладателя</li>
+                  <li>Разработка индивидуального лицензионного договора, в том числе проработка индивидуальной схемы платежа и иных положений договора с учетом судебной и налоговой практики</li>
+                  <li>Оплата государственной пошлины</li>
+                  <li>Подача пакета документов в ФИПС</li>
+                  <li>Ведение делопроизводства</li>
+                  <li>Получение зарегистрированного договора</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price">от <span class="pricing-plan__price-number">42&nbsp;200</span> руб<br> от <span class="pricing-plan__price-number">2</span> месяцев</div>
+                  <div class="pricing-plan__btns">
+                    <div class="pricing-plan__btn"><a class="dotted js-fancy-modal" href="#rights-transfer-cost-calculator">Рассчитать</a></div>
+                  </div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr style="height: 70px; margin: 0; border: 0;">
+    <section class="section section--gray">
+      <div class="container">
+        <h2 class="section__title">Услуги и тарифы</h2>
+        <p>Поверенные Патентного Бюро Гардиум имеют большой опыт в регистрации компьютерных программ и баз данных. Мы отлично знаем весь процесс регистрации программного обеспечения от составления заявки, до получения свидетельства, и благодаря этому мы можем значительно уменьшить срок регистрации программы для ЭВМ. Стоимость услуг, а также размер государственной пошлины зависит от страны, в которой необходимо защитить Ваш объект, а также от страны, в которой зарегистрирован правообладатель.<br> Выберите подходящий для Вас пакет услуг:</p>
+        <div class="pricing-plans pricing-plans--three-items pricing-plans--after-text-block js-equal-height">
+          <div class="js-prices-slider row-lg">
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Регистрация в&nbsp;России</span></h3>
+              <div class="pricing-plan__content">
+                <div class="pricing-plan__subtitle">Для резидентов</div>
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Консультация</li>
+                  <li>Подготовка полного пакета документов</li>
+                  <li>Представление интересов резидента в ФИПС</li>
+                  <li>Делопроизводство по заявке</li>
+                  <li>Получение свидетельства</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price"><span class="pricing-plan__price-number">16&nbsp;500</span> руб<br> от <span class="pricing-plan__price-number">2</span> месяцев</div>
+                  <div class="pricing-plan__btns">
+                    <div class="pricing-plan__btn"><a class="dotted js-fancy-modal" href="#programms-registration-cost-calculator">Рассчитать</a></div>
+                  </div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать</a></div>
+              </div>
+            </div>
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Регистрация в&nbsp;России</span></h3>
+              <div class="pricing-plan__content">
+                <div class="pricing-plan__subtitle">Для нерезидентов</div>
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Консультация</li>
+                  <li>Подготовка полного пакета документов</li>
+                  <li>Представление интересов резидента в ФИПС</li>
+                  <li>Делопроизводство по заявке</li>
+                  <li>Получение свидетельства</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price"><span class="pricing-plan__price-number">19&nbsp;600</span> руб<br> от <span class="pricing-plan__price-number">2</span> месяцев</div>
+                  <div class="pricing-plan__btns">
+                    <div class="pricing-plan__btn"><a class="dotted js-fancy-modal" href="#programms-registration-cost-calculator">Рассчитать</a></div>
+                  </div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать</a></div>
+              </div>
+            </div>
+            <div class="pricing-plan col-1-3-lg">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Регистрация<br> в&nbsp;США</span></h3>
+              <div class="pricing-plan__content">
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Консультирование</li>
+                  <li>Подготовка полного пакета документов для депонирования в Библиотеке Конгресса США</li>
+                  <li>Оплата тарифов</li>
+                  <li>Контроль процесса регистрации, ведение делопроизводства</li>
+                  <li>Получение сертификата о регистрации</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price"><span class="pricing-plan__price-number">18&nbsp;700</span> руб<br> от <span class="pricing-plan__price-number">1</span> года</div>
+                  <div class="pricing-plan__btns">
+                    <div class="pricing-plan__btn"><a class="dotted js-fancy-modal" href="#programms-registration-cost-calculator">Рассчитать</a></div>
+                  </div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr style="height: 70px; margin: 0; border: 0;">
+    <section class="section section--gray">
+      <div class="container">
+        <h2 class="section__title">Услуги и тарифы</h2>
+        <p>Регистрация договора коммерческой концессии пройдет для Вас быстро и без затруднений, если процедуру будут сопровождать поверенные и юристы нашего Патентного Бюро. В зависимости от тесноты взаимодействия сторон договора, достигнутых договоренностей, а также целей соглашения Вы можете выбрать наиболее подходящий пакет услуг.</p>
+        <div class="pricing-plans pricing-plans--two-items pricing-plans--after-text-block js-equal-height">
+          <div class="js-prices-slider row-md">
+            <div class="pricing-plan col-1-2-md">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Франчайзинг<br> приобретение</span></h3>
+              <div class="pricing-plan__content">
+                <div class="pricing-plan__subtitle">Для приобретателей прав</div>
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Проверка представленного договора для снижения рисков двоякого толкования положений или досрочного расторжения</li>
+                  <li>Проверка договора на наличие налоговых рисков</li>
+                  <li>Корректировка договора</li>
+                  <li>Подготовка письменного заключения, содержащего обоснованные аргументы для проведения переговоров с правообладателем</li>
+                  <li>Подготовка и подача пакета документов для регистрации договора в ФИПС</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price">от <span class="pricing-plan__price-number">30&nbsp;300</span> руб<br> от <span class="pricing-plan__price-number">2</span> месяцев</div>
+                  <div class="pricing-plan__btns">
+                    <div class="pricing-plan__btn"><a class="dotted js-fancy-modal" href="#rights-transfer-cost-calculator">Рассчитать</a></div>
+                  </div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать</a></div>
+              </div>
+            </div>
+            <div class="pricing-plan col-1-2-md">
+              <h3 class="pricing-plan__title js-equal-height__block"><span>Франчайзинг<br> передача</span></h3>
+              <div class="pricing-plan__content">
+                <div class="pricing-plan__subtitle">Для право&shy;обла&shy;дателей</div>
+                <ul class="check-marker-list pricing-plan__features">
+                  <li>Проведение предпродажной подготовки: проверка статуса передаваемых объектов, наличия обременений</li>
+                  <li>Разработка проекта договора в соответствии с действующим гражданским и налоговым законодательством, арбитражной практикой и требованиями Роспатента</li>
+                  <li>Оплата патентной пошлины за регистрацию договора</li>
+                  <li>Подача документов на регистрацию</li>
+                  <li>Получение зарегистрированного договора, передача клиенту</li>
+                </ul>
+                <div class="pricing-plan__prices">
+                  <div class="pricing-plan__price">от <span class="pricing-plan__price-number">48&nbsp;100</span> руб<br> от <span class="pricing-plan__price-number">2</span> месяцев</div>
+                  <div class="pricing-plan__btns">
+                    <div class="pricing-plan__btn"><a class="dotted js-fancy-modal" href="#rights-transfer-cost-calculator">Рассчитать</a></div>
+                  </div>
+                </div>
+                <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr style="height: 70px; margin: 0; border: 0;">
+    <section class="section">
+      <div class="container">
+        <h2 class="section__title">Патентный поиск</h2>
+        <div class="row-md">
+          <div class="col-1-2-md">
+            <p>Some text</p>
+          </div>
+          <div class="pricing-plan col-1-2-md section__only-block">
+            <h3 class="pricing-plan__title"><span>Патентный поиск</span></h3>
+            <div class="pricing-plan__content pricing-plan__content--blue-bg">
+              <ul class="check-marker-list pricing-plan__features">
+                <li>За 20 дней в ФИПС и ROMARIN</li>
+              </ul>
+              <div class="pricing-plan__prices">
+                <div class="pricing-plan__price pricing-plan__price--before-btn">от <span class="pricing-plan__price-number">48&nbsp;100</span> руб<br> от <span class="pricing-plan__price-number">2</span> месяцев</div>
+              </div>
+              <div class="pricing-plan__order-btn"><a class="btn" href="">Заказать проверку</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="page-footer">
+      <div class="page-footer__top container">
+        <div class="row-md">
+          <div class="page-footer__col page-footer__col--push-1-4 js-show-callback-form">
+            <address>
+              <div class="page-footer__phone"><a href="tel:+74956658258">+7 (495) 665-82-58</a></div><a class="page-footer__link" href="mailto:info@gardium.ru">info@gardium.ru</a>
+            </address>
+            <div class="page-footer__callback-wrapper">
+              <button class="page-footer__callback-btn js-show-callback-form__btn btn btn--xs" type="button">Заказать звонок</button>
+              <div class="page-footer__callback-popup is-hidden js-show-callback-form__form">
+                <button class="page-footer__callback-popup-close js-show-callback-form__close-btn" type="button">Закрыть</button>
+                <form class="form form--mt0 form--call-order js-form">
+                  <div class="form-row form-row--pb0">
+                    <div class="form-col form-col--pt20">
+                      <div class="form-input form-input--text">
+                        <label for="form-input-10-1">Ваше имя<span class="asterisk">*</span></label>
+                        <input id="form-input-10-1" type="text" required>
+                      </div>
+                    </div>
+                    <div class="form-col form-col--pb0">
+                      <div class="form-input form-input--text">
+                        <label for="form-input-10-2">Телефон<span class="asterisk">*</span></label>
+                        <input id="form-input-10-2" type="text" placeholder="+7 (925) 490-22-10" required>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-row form-row--pt0">
+                    <div class="form-col">
+                      <div class="form-input form-input--button">
+                        <button class="btn btn-full js-form-submit" type="button">Заказать</button>
+                      </div>
+                    </div>
+                    <div class="form-col">
+                      <div class="form-input form-input--check-footer js-form-privacy-agree">
+                        <label class="input-checkbox">
+                          <input id="form-input-1-17" type="checkbox" checked><span class="js-form-privacy-agree-short">Соглашаюсь на
+                            <button class="dotted js-form-privacy-agree-responsive-btn" type="button" target="_blank"><span>обработку персональных данных</span></button></span><span class="hide-xs js-form-privacy-agree-full">Нажимая кнопку «Заказать услугу», я принимаю условия <a href="#" target="_blank">Пользовательского соглашения</a> и даю своё согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных <a href="#" target="_blank">Политикой конфиденциальности</a><br> 
+                            <button class="input-checkbox__close-btn dotted js-form-privacy-agree-close-btn" type="button"><span>Скрыть</span></button></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="page-footer__location-block page-footer__location-block--hidden-on-desktop">
+              <div class="page-footer__address"><span class="page-footer__address-text">Центральный офис: Москва, Рязанский проспект, 75к4</span></div><a class="page-footer__map-link js-fancy-modal-lp-lg" href="#road-map">Схема проезда</a>
+            </div>
+          </div>
+          <div class="page-footer__col page-footer__col--pull-1-4">
+            <div class="page-footer__copyright">© 2005–2017, ООО «Гардиум» <br> Все права защищены</div>
+                        <ul class="social-links social-links--inline">
+                          <li class="social-links__item"><a class="social-links__link" href="https://www.facebook.com/gardiumrussia" target="_blank" rel="noopener noreferrer"><span>
+                                            <svg width="8" height="16">
+                                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-fb"></use>
+                                            </svg></span></a></li>
+                          <li class="social-links__item"><a class="social-links__link social-links__link--vk" href="https://vk.com/gardium" target="_blank" rel="noopener noreferrer"><span>
+                                            <svg width="15" height="15">
+                                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-vk"></use>
+                                            </svg></span></a></li>
+                        </ul>
+          </div>
+          <div class="page-footer__col page-footer__col--hidden-on-tablet">
+            <div class="page-footer__location-block">
+              <div class="page-footer__address"><span class="page-footer__address-text">Центральный офис: Москва, Рязанский проспект, 75к4</span></div><a class="page-footer__map-link js-fancy-modal-lp-lg" href="#road-map">Схема проезда</a>
+            </div>
+            <div class="page-footer__location-block">
+              <div class="page-footer__address"><span class="page-footer__address-text">Офис в вашем городе:</span>
+                <div class="page-footer__city-info"><span class="page-footer__address-icon"><svg width="11" height="13"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-map"></use></svg></span><a class="page-footer__city-link"><span class="js-tooltip-city js-tooltip-city--footer" data-tooltip-content="#tooltip-content-city-list">Санкт-Петербург, </span></a></div>Синопская набережная, 22
+                <div class="city-list-content">
+                  <ul class="city-list" id="tooltip-content-city-list">
+                    <li><a class="city-list__link" href="#">Воронеж</a><span>, ул. Никитинская, д. 42</span></li>
+                    <li><a class="city-list__link" href="#">Екатеринбург</a><span>, ул.Хохрякова, д.10</span></li>
+                    <li><a class="city-list__link" href="#">Нижний Новгород</a><span>, ул. Ковалихинская, д. 8</span></li>
+                    <li><a class="city-list__link" href="#">Казань</a><span>, ул. Право-Булачная, д. 35/2</span></li>
+                    <li><a class="city-list__link" href="#">Саратов</a><span>, ул. Московская, д. 55</span></li>
+                    <li><a class="city-list__link" href="#">Уфа</a><span>, ул. Первомайская, д. 29</span></li>
+                    <li><a class="city-list__link" href="#">Ростов-на-Дону</a><span>, ул. 50-летия Ростсельмаша, 1/52</span></li>
+                    <li><a class="city-list__link" href="#">Ярославль</a><span>, ул. Некрасова, д. 41</span></li>
+                  </ul>
+                </div>
+              </div><a class="page-footer__map-link js-fancy-modal-lp-lg" href="#road-map">Схема проезда</a>
+            </div>
+          </div>
+          <div class="page-footer__col page-footer__col--hidden-on-tablet"><a class="page-footer__rec-info page-footer__rec-info--mb20" href="https://www.exportcenter.ru/partners/list/ooo_fpb_gardium/" target="_blank"><img src="../../assets/images/logos/logo-rec--white.png" width="53" height="32" alt="Логотип РЭЦ"><span>Аккредитованный партнер Российского экспортного центра</span></a>
+            <div class="js-show-content page-footer__other-companies">
+              <button class="dotted dotted--white js-show-content__btn" type="button" data-scroll-to="true" data-attribute="other-wiseadvice-companies"><span>Другие компании</span></button> консалтинговой группы <img class="page-footer__logo" src="../../assets/images/logos/logo-wiseadvice.png" alt="Логотип компании WiseAdvice">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-footer__bottom">
+        <div class="container">
+          <ul class="page-footer__nav row-lg">
+            <li class="col-1-4-lg"><a class="page-footer__nav-link" href="">Патентное бюро</a>
+              <ul class="page-footer__nav-list">
+                <li><a class="page-footer__nav-link" href="">О нас</a></li>
+                <li><a class="page-footer__nav-link" href="">Услуги и цены</a></li>
+                <li><a class="page-footer__nav-link" href="">Клиенты</a></li>
+                <li><a class="page-footer__nav-link" href="">Инфо</a></li>
+                <li><a class="page-footer__nav-link" href="">Контакты</a></li>
+              </ul>
+            </li>
+            <li class="col-1-4-lg"><a class="page-footer__nav-link" href="">Товарные знаки</a>
+              <ul class="page-footer__nav-list">
+                <li><a class="page-footer__nav-link" href="">Регистрация товарного знака</a></li>
+                <li><a class="page-footer__nav-link" href="">Регистрация торговой марки</a></li>
+                <li><a class="page-footer__nav-link" href="">Регистрация логотипа</a></li>
+                <li><a class="page-footer__nav-link" href="">Международная регистрация</a></li>
+                <li><a class="page-footer__nav-link" href="">Реестр товарных знаков</a></li>
+              </ul>
+            </li>
+            <li class="col-1-4-lg"><a class="page-footer__nav-link" href="">Патентование</a>
+              <ul class="page-footer__nav-list">
+                <li><a class="page-footer__nav-link" href="">Патент на изобретение</a></li>
+                <li><a class="page-footer__nav-link" href="">Патент на полезную модель</a></li>
+                <li><a class="page-footer__nav-link" href="">Патент на промышленный образец</a></li>
+                <li><a class="page-footer__nav-link" href="">Патентный поиск</a></li>
+                <li><a class="page-footer__nav-link" href="">Патентные поверенные</a></li>
+              </ul>
+            </li>
+            <li class="col-1-4-lg"><a class="page-footer__nav-link" href="">Договоры</a>
+              <ul class="page-footer__nav-list">
+                <li><a class="page-footer__nav-link" href="">Лицензионный договор</a></li>
+                <li><a class="page-footer__nav-link" href="">Договор отчуждения</a></li>
+                <li><a class="page-footer__nav-link" href="">Договор коммерческой концессии</a></li>
+                <li><a class="page-footer__nav-link" href="">Договор авторского заказа</a></li>
+                <li><a class="page-footer__nav-link" href="">Залог исключительных прав</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="page-footer__links row-sm" data-target="other-wiseadvice-companies">
+            <li class="col-1-2-cycle-sm col-1-3-cycle-md"><a class="underlined underlined--white" href="http://arplaw.ru/"><b>Арбитражное адвокатское бюро «АРП»</b></a><br>арбитраж, споры и конфликты, юридические услуги</li>
+            <li class="col-1-2-cycle-sm col-1-3-cycle-md"><a class="underlined underlined--white" href="http://1c-wiseadvice.ru/book-keeping/"><b>Бухгалтерские услуги в Москве</b></a></li>
+            <li class="col-1-2-cycle-sm col-1-3-cycle-md"><a class="underlined underlined--white" href="http://arplaw.ru/"><b>Налоговые адвокаты и юристы</b></a><br>налоговые проверки ИФНС, ОБЭП, возмещение НДС</li>
+            <li class="col-1-2-cycle-sm col-1-3-cycle-md"><a class="underlined underlined--white" href="http://www.pravovest-audit.ru"><b>Аудиторская фирма «WiseAdvice»</b></a><br>аудиторские услуги по РСБУ и МСФО</li>
+            <li class="col-1-2-cycle-sm col-1-3-cycle-md"><a class="underlined underlined--white" href="http://intelis-it.ru/"><b>Услуги 1С Франчайзи</b></a><br>внедрение, сопровождение, проекты по 1С</li>
+            <li class="col-1-2-cycle-sm col-1-3-cycle-md"><a class="underlined underlined--white" href="http://www.damages.ru"><b>Независимая экспертиза №1 «Хонест»</b></a><br>автоэкспертиза, возмещение ущерба от ДТП, залива и пр.</li>
+            <li class="col-1-2-cycle-sm col-1-3-cycle-md"><a class="underlined underlined--white" href="http://www.intelis-ocenka.ru/"><b>Услуги по независимой оценке</b></a><br>оценка недвижимости, оборудования, бизнеса</li>
+            <li class="col-1-2-cycle-sm col-1-3-cycle-md"><a class="underlined underlined--white" href="http://www.1cashflow.ru/"><b>Программы на 1С - «Финансист»</b></a><br>автоматизация бюджетирования, казначейства, упр.учета</li>
+            <li class="col-1-2-cycle-sm col-1-3-cycle-md"><a class="underlined underlined--white" href="http://you-right.ru/"><b>Линейка программ «Юрайт»</b></a><br>программы для юристов и юридических фирм</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="modal" id="call-order">
+      <form class="form form--mt0 form--call-order js-form">
+        <div class="form-header">Заказ обратного звонка</div>
+        <div class="form-row">
+          <div class="form-col form-col-1-2 form-col--pb0">
+            <div class="form-input form-input--text">
+              <label for="form-input-10-1">Ваше имя<span class="asterisk">*</span></label>
+              <input id="form-input-10-1" type="text" placeholder="Сергей Заказчиков">
+            </div>
+          </div>
+          <div class="form-col form-col-1-2">
+            <div class="form-input form-input--text">
+              <label for="form-input-10-2">Телефон<span class="asterisk">*</span></label>
+              <input id="form-input-10-2" type="text" placeholder="+7 (925) 490-22-10">
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="form-row">
+          <div class="form-col form-col--pb0">
+            <div class="form-input-title form-input-title--radio">Что вас интересует?</div>
+          </div>
+          <div class="form-col form-col-1-2 form-col--pt0 form-col--pb0">
+            <div class="form-input form-input--radio js-form-radio-choise">
+              <div class="form-radio-wrapper">
+                <label class="input-radio">
+                  <input type="radio" name="form-input-10-3" checked> Товарные знаки
+                </label>
+                <label class="input-radio">
+                  <input type="radio" name="form-input-10-3"> Патенты (изобретения, полезные модели, пром. образцы)
+                </label>
+                <label class="input-radio">
+                  <input type="radio" name="form-input-10-3"> Программы ЭВМ
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="form-col form-col-1-2 form-col--pt0 form-col--pb0">
+            <div class="form-input form-input--radio js-form-radio-choise">
+              <div class="form-radio-wrapper">
+                <label class="input-radio">
+                  <input type="radio" name="form-input-10-3"> Патентные споры
+                </label>
+                <label class="input-radio">
+                  <input type="radio" name="form-input-10-3"> Другое
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="form-row">
+          <div class="form-col form-col-1-2">
+            <div class="form-input form-input--select">
+              <label for="form-input-1-9">Удобное время связи:</label>
+              <div class="form-select-wrapper">
+                <select class="js-form-select-in-modal" id="form-input-1-9">
+                  <option value="0" selected>В течение дня</option>
+                  <option value="0">В течение дня2</option>
+                  <option value="0">В течение дня3</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form-col form-col-1-2">
+            <div class="form-input form-input--button">
+              <button class="btn btn-full" type="button">Заказать услугу</button>
+            </div>
+          </div>
+          <div class="form-col">
+            <div class="form-input form-input--check-footer js-form-privacy-agree">
+              <label class="input-checkbox">
+                <input id="form-input-1-17" type="checkbox" checked><span class="hide-md js-form-privacy-agree-short">Соглашаюсь на
+                  <button class="dotted js-form-privacy-agree-responsive-btn" type="button" target="_blank"><span>обработку персональных данных</span></button></span><span class="hide-up-to-md js-form-privacy-agree-full">Нажимая кнопку «Заказать услугу», я принимаю условия <a href="#" target="_blank">Пользовательского соглашения</a> и даю своё согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных <a href="#" target="_blank">Политикой конфиденциальности</a></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="modal" id="call-order2">
+      <form class="form form--mt0 form--call-order js-form">
+        <div class="form-row form-row--pb0">
+          <div class="form-col form-col--pt20">
+            <div class="form-input form-input--text">
+              <label for="form-input-10-1">Ваше имя<span class="asterisk">*</span></label>
+              <input id="form-input-10-1" type="text" required>
+            </div>
+          </div>
+          <div class="form-col form-col--pb0">
+            <div class="form-input form-input--text">
+              <label for="form-input-10-2">Телефон<span class="asterisk">*</span></label>
+              <input id="form-input-10-2" type="text" placeholder="+7 (925) 490-22-10" required>
+            </div>
+          </div>
+        </div>
+        <div class="form-row form-row--pt0">
+          <div class="form-col">
+            <div class="form-input form-input--button">
+              <button class="btn btn-full js-form-submit" type="button">Заказать</button>
+            </div>
+          </div>
+          <div class="form-col">
+            <div class="form-input form-input--check-footer js-form-privacy-agree">
+              <label class="input-checkbox">
+                <input id="form-input-1-17" type="checkbox" checked><span class="js-form-privacy-agree-short">Соглашаюсь на
+                  <button class="dotted js-form-privacy-agree-responsive-btn" type="button" target="_blank"><span>обработку персональных данных</span></button></span><span class="hide-xs js-form-privacy-agree-full">Нажимая кнопку «Заказать услугу», я принимаю условия <a href="#" target="_blank">Пользовательского соглашения</a> и даю своё согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных <a href="#" target="_blank">Политикой конфиденциальности</a><br> 
+                  <button class="input-checkbox__close-btn dotted js-form-privacy-agree-close-btn" type="button"><span>Скрыть</span></button></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="modal-lp modal-lp--road-modal" id="road-map">
+      <div class="text-center modal-lp__title">Центральный офис патентно-адвокатское бюро «Гардиум»</div>
+      <div class="row-lg">
+        <div class="col-3-4-lg">
+          <div>109456, Москва, Рязанский проспект, д.75, корп.4 <br class="hide-up-to-md">Время работы: Пн-Пт: 9:00 — 19:00</div>
+          <div><a href="tel:+74956658258">+7 (495) 665-82-58</a></div>
+          <div><a class="link-unstyled" href="mailto:info@gardium.ru">info@gardium.ru</a></div>
+        </div>
+        <div class="col-1-4-lg hide-up-to-lg"><a class="link-lp" href="#">Распечатать </a><span>| </span><a class="link-lp" href="#">Сохранить</a></div>
+      </div>
+      <div class="modal-lp__map" id="main-office-moscow"></div>
+      <div>
+        <div class="modal-lp__title">Как добраться</div>
+        <div class="modal-lp__subtitle">Пешком:</div>
+        <p>Станция метро «Рязанский проспект», первый вагон из центра, из метро направо, дойти до супермаркета, затем еще раз повернуть направо. Вы увидите две розово-серые башни.<br> Клиентский отдел находится во-второй  башне (от шлагбаума) на 6-м этаже. С поста охраны на первом этаже необходимо позвонить по внутреннему телефону 1506, затем с документом, удостоверяющим личность, подойти к охране.</p>
+        <div class="modal-lp__subtitle"> На машине:</div>
+        <p><b>Из центра:</b> на пересечении Рязанского проспекта и улицы Паперника развернуться на круге и повернуть на ул. Паперника. После второй автобусной остановки, не доезжая моста, повернуть во дворы. Либо ехать дальше по улице Паперника, после моста объехать авто заправку и свернуть на улицу Вострухина, затем на 4-й Вешняковский проезд.</p>
+        <p><b>В центр:</b> не сворачивая с Рязанского проспекта, проехать чуть дальше станции метро «Рязанский проспект», развернуться на круге, затем проехать в обратную сторону и повернуть на втором повороте.</p>
+      </div>
+    </div>
+    <div class="modal js-modal" id="patenting-cost-calculator">
+                  <form class="form form--mt0 js-form">
+                    <div class="form-header">Калькулятор стоимости услуг по&nbsp;патентованию</div>
+                    <div class="form-row">
+                      <div class="form-col form-col-1-2">
+                        <div class="form-input form-input--select">
+                          <label for="object-type">Тип объекта <span class="que tooltipstered">Тип объекта</span></label>
+                          <div class="form-select-wrapper">
+                            <select class="js-form-select-in-modal" id="object-type">
+                              <option value="Тип объекта" selected>Тип объекта</option>
+                              <option value="Тип объекта 2">Тип объекта 2</option>
+                              <option value="Тип объекта 3">Тип объекта 3</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-col form-col-1-2">
+                        <div class="form-input form-input--select">
+                          <label for="services-package">Пакет услуг <span class="que tooltipstered">Пакет услуг</span></label>
+                          <div class="form-select-wrapper">
+                            <select class="js-form-select-in-modal" id="services-package">
+                              <option value="Пакет услуг" selected>Пакет услуг</option>
+                              <option value="Пакет услуг 2">Пакет услуг 2</option>
+                              <option value="Пакет услуг 3">Пакет услуг 3</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-col form-col--pb0 form-col-1-2">
+                        <div class="form-input">
+                          <label for="objects-number">Количество объектов в решении <span class="que tooltipstered">Количество объектов в решении</span></label>
+                          <div class="form-slider form-slider--before-row js-slider-widget">
+                            <div class="form-slider__widget">
+                              <div class="slider-widget js-slider-widget__slider" data-max-value="20"></div>
+                            </div>
+                            <div class="form-slider__value">
+                              <input class="js-slider-widget__value" id="objects-number" type="text" value="1">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-col form-col-1-2">
+                        <div class="form-input">
+                          <label for="variants-number">Количество вариантов <span class="que tooltipstered">Количество вариантов</span></label>
+                          <div class="form-slider form-slider--before-row js-slider-widget">
+                            <div class="form-slider__widget">
+                              <div class="slider-widget js-slider-widget__slider" data-max-value="99"></div>
+                            </div>
+                            <div class="form-slider__value">
+                              <input class="js-slider-widget__value" id="variants-number" type="text" value="1">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-col form-col--pt5">
+                        <div class="form-input form-input--select">
+                          <label for="departments">Отрасли <span class="que tooltipstered">Отрасли</span></label>
+                          <div class="form-select-wrapper form-select-wrapper--mb6">
+                            <select class="js-form-select-in-modal" id="departments">
+                              <option value="Отрасли" selected>Отрасли</option>
+                              <option value="Отрасли 2">Отрасли 2</option>
+                              <option value="Отрасли 3">Отрасли 3</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="form-row form-row--last-in-block">
+                      <div class="form-col form-col-1-2">
+                        <div class="form-input form-input--pt6">
+                          <label>
+                            <div class="form-switcher">
+                              <input type="checkbox" value=""><span class="form-switcher__slider"></span>
+                            </div>Резидент РФ <span class="que tooltipstered">Резидент РФ</span>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="form-col form-col-1-2">
+                        <div class="form-adv">Стоимость услуг</div>
+                        <div class="form-adv form-adv--lead form-adv--mb7"><span>29 900</span> руб.</div>
+                        <div class="form-adv form-adv--lh-sm form-adv--mb7">Госпошлины <span>9 500</span> руб.<br> Общий бюджет <span>39 400</span> руб.</div>
+                      </div>
+                      <div class="form-col form-col-1-2 form-col-1-2--right"><a class="btn btn-full" href="">Заказать услугу</a></div>
+                    </div>
+                  </form>
+    </div>
+    <div class="modal js-modal" id="trademark-registration-cost-calculator">
+                  <form class="form form--mt0 js-form">
+                    <div class="form-header">Калькулятор стоимости услуг по&nbsp;регистрации товарного знака</div>
+                    <div class="form-row">
+                      <div class="form-col form-col-1-2">
+                        <div class="form-input form-input--select">
+                          <label for="object-type">Тип объекта <span class="que tooltipstered">Тип объекта</span></label>
+                          <div class="form-select-wrapper">
+                            <select class="js-form-select-in-modal" id="object-type">
+                              <option value="Тип объекта" selected>Тип объекта</option>
+                              <option value="Тип объекта 2">Тип объекта 2</option>
+                              <option value="Тип объекта 3">Тип объекта 3</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-col form-col-1-2">
+                        <div class="form-input form-input--select">
+                          <label for="services-package">Пакет услуг <span class="que tooltipstered">Пакет услуг</span></label>
+                          <div class="form-select-wrapper">
+                            <select class="js-form-select-in-modal" id="services-package">
+                              <option value="Пакет услуг" selected>Пакет услуг</option>
+                              <option value="Пакет услуг 2">Пакет услуг 2</option>
+                              <option value="Пакет услуг 3">Пакет услуг 3</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-col form-col-1-2">
+                        <div class="form-input">
+                          <label for="objects-number">Количество классов МКТУ <span class="que tooltipstered">Количество классов МКТУ</span></label>
+                          <div class="form-slider form-slider--last-in-block js-slider-widget">
+                            <div class="form-slider__widget">
+                              <div class="slider-widget js-slider-widget__slider" data-max-value="45"></div>
+                            </div>
+                            <div class="form-slider__value">
+                              <input class="js-slider-widget__value" id="objects-number" type="text" value="1">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="form-row form-row--last-in-block">
+                      <div class="form-col form-col-1-2">
+                        <div class="form-input form-input--pt6">
+                          <label>
+                            <div class="form-switcher">
+                              <input type="checkbox" value=""><span class="form-switcher__slider"></span>
+                            </div>Резидент РФ <span class="que tooltipstered">Резидент РФ</span>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="form-col form-col-1-2">
+                        <div class="form-adv">Стоимость услуг</div>
+                        <div class="form-adv form-adv--lead form-adv--mb7"><span>29 900</span> руб.</div>
+                        <div class="form-adv form-adv--lh-sm form-adv--mb7">Госпошлины <span>9 500</span> руб.<br> Общий бюджет <span>39 400</span> руб.</div>
+                      </div>
+                      <div class="form-col form-col-1-2 form-col-1-2--right"><a class="btn btn-full" href="">Заказать услугу</a></div>
+                    </div>
+                  </form>
+    </div>
+    <div class="modal js-modal" id="rights-transfer-cost-calculator">
+                  <form class="form form--mt0 js-form">
+                    <div class="form-header">Калькулятор стоимости услуг<br> по&nbsp;передаче прав на интел&shy;лекту&shy;альную собственность</div>
+                    <div class="form-row">
+                      <div class="form-col form-col-1-2">
+                        <div class="form-input form-input--select">
+                          <label for="object-type">Вид объекта <span class="que tooltipstered">Вид объекта</span></label>
+                          <div class="form-select-wrapper">
+                            <select class="js-form-select-in-modal" id="object-type">
+                              <option value="Вид объекта" selected>Вид объекта</option>
+                              <option value="Вид объекта 2">Вид объекта 2</option>
+                              <option value="Вид объекта 3">Вид объекта 3</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-col form-col-1-2">
+                        <div class="form-input">
+                          <label for="objects-number">Количество <span class="que tooltipstered">Количество</span></label>
+                          <div class="form-slider form-slider--before-row js-slider-widget">
+                            <div class="form-slider__widget">
+                              <div class="slider-widget js-slider-widget__slider" data-max-value="20"></div>
+                            </div>
+                            <div class="form-slider__value">
+                              <input class="js-slider-widget__value" id="objects-number" type="text" value="1">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-col form-col-1-2">
+                        <div class="form-input form-input--select">
+                          <label for="contract-type">Вид договора <span class="que tooltipstered">Вид договора</span></label>
+                          <div class="form-select-wrapper form-select-wrapper--mb6">
+                            <select class="js-form-select-in-modal" id="contract-type">
+                              <option value="Вид договора" selected>Вид договора</option>
+                              <option value="Вид договора 2">Вид договора 2</option>
+                              <option value="Вид договора 3">Вид договора 3</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-col form-col-1-2">
+                        <div class="form-input form-input--select">
+                          <label for="deal-type">Вид сделки <span class="que tooltipstered">Вид сделки</span></label>
+                          <div class="form-select-wrapper form-select-wrapper--mb6">
+                            <select class="js-form-select-in-modal" id="deal-type">
+                              <option value="Вид сделки" selected>Вид сделки</option>
+                              <option value="Вид сделки 2">Вид сделки 2</option>
+                              <option value="Вид сделки 3">Вид сделки 3</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="form-row form-row--last-in-block">
+                      <div class="form-col form-col-1-2">
+                        <div class="form-input form-input--pt6">
+                          <label>
+                            <div class="form-switcher">
+                              <input type="checkbox" value=""><span class="form-switcher__slider"></span>
+                            </div>Резидент РФ <span class="que tooltipstered">Резидент РФ</span>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="form-col form-col-1-2">
+                        <div class="form-adv">Стоимость услуг</div>
+                        <div class="form-adv form-adv--lead form-adv--mb7"><span>29 900</span> руб.</div>
+                        <div class="form-adv form-adv--lh-sm form-adv--mb7">Госпошлины <span>9 500</span> руб.<br> Общий бюджет <span>39 400</span> руб.</div>
+                      </div>
+                      <div class="form-col form-col-1-2 form-col-1-2--right"><a class="btn btn-full" href="">Заказать услугу</a></div>
+                    </div>
+                  </form>
+    </div>
+    <div class="modal js-modal" id="programms-registration-cost-calculator">
+                  <form class="form form--mt0 js-form">
+                    <div class="form-header">Калькулятор стоимости услуг по&nbsp;регистрации программ и баз данныx</div>
+                    <div class="form-row">
+                      <div class="form-col form-col-1-2">
+                        <div class="form-input form-input--select">
+                          <label for="object-type">Регион <span class="que tooltipstered">Регион</span></label>
+                          <div class="form-select-wrapper">
+                            <select class="js-form-select-in-modal" id="object-type">
+                              <option value="Россия" selected>Россия</option>
+                              <option value="Россия 2">Россия 2</option>
+                              <option value="Россия 3">Россия 3</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-col form-col-1-2">
+                        <div class="form-input form-input--check">
+                          <div class="form-input-title">Дополнительно <span class="que tooltipstered">Дополнительно</span></div>
+                          <label class="input-checkbox input-checkbox--inside-col">
+                            <input type="checkbox" checked>Реестр Минкомсвязи
+                          </label>
+                        </div>
+                      </div>
+                      <div class="form-col form-col-1-2">
+                        <div class="form-input">
+                          <label for="objects-number">Количество объектов <span class="que tooltipstered">Количество объектов</span></label>
+                          <div class="form-slider form-slider--last-in-block js-slider-widget">
+                            <div class="form-slider__widget">
+                              <div class="slider-widget js-slider-widget__slider" data-max-value="20"></div>
+                            </div>
+                            <div class="form-slider__value">
+                              <input class="js-slider-widget__value" id="objects-number" type="text" value="1">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="form-row form-row--last-in-block">
+                      <div class="form-col form-col-1-2">
+                        <div class="form-input form-input--pt6">
+                          <label>
+                            <div class="form-switcher">
+                              <input type="checkbox" value=""><span class="form-switcher__slider"></span>
+                            </div>Резидент РФ <span class="que tooltipstered">Резидент РФ</span>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="form-col form-col-1-2">
+                        <div class="form-adv">Стоимость услуг</div>
+                        <div class="form-adv form-adv--lead form-adv--mb7"><span>29 900</span> руб.</div>
+                        <div class="form-adv form-adv--lh-sm form-adv--mb7">Госпошлины <span>9 500</span> руб.<br> Общий бюджет <span>39 400</span> руб.</div>
+                      </div>
+                      <div class="form-col form-col-1-2 form-col-1-2--right"><a class="btn btn-full" href="">Заказать услугу</a></div>
+                    </div>
+                  </form>
+    </div>
+    <div class="modal" id="order-form">
+      <form class="form form--mt0 form--call-order js-form">
+        <div class="form-header">Заказ услуги</div>
+        <div class="form-row form-row--pb0">
+          <div class="form-col form-col--pb0">
+            <div class="form-input form-input--text">
+              <label for="form-input-10-1">Ваше имя<span class="asterisk">*</span></label>
+              <input id="form-input-10-1" type="text">
+            </div>
+          </div>
+          <div class="form-col form-col--pb0">
+            <div class="form-input form-input--text">
+              <label for="form-input-10-2">Email<span class="asterisk">*</span></label>
+              <input id="form-input-10-2" type="text">
+            </div>
+          </div>
+          <div class="form-col form-col--pb0">
+            <div class="form-input form-input--text">
+              <label for="form-input-10-3">Телефон<span class="asterisk">*</span></label>
+              <input id="form-input-10-3" type="text">
+            </div>
+          </div>
+        </div>
+        <div class="form-row form-row--pt0">
+          <div class="form-col">
+            <div class="form-input form-input--button">
+              <button class="btn btn-full" type="button">Заказать услугу</button>
+            </div>
+          </div>
+          <div class="form-col">
+            <div class="form-input form-input--check-footer js-form-privacy-agree">
+              <label class="input-checkbox">
+                <input id="form-input-1-17" type="checkbox" checked><span class="js-form-privacy-agree-short">Соглашаюсь на
+                  <button class="dotted js-form-privacy-agree-responsive-btn" type="button" target="_blank"><span>обработку персональных данных</span></button></span><span class="hide-xs js-form-privacy-agree-full">Нажимая кнопку «Заказать услугу», я принимаю условия <a href="#" target="_blank">Пользовательского соглашения</a> и даю своё согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных <a href="#" target="_blank">Политикой конфиденциальности</a><br> 
+                  <button class="input-checkbox__close-btn dotted js-form-privacy-agree-close-btn" type="button"><span>Скрыть</span></button></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="tooltipster-overlay"></div>
+    <div class="container">
+      <div class="buttons-round js-back-to-top">
+        <div class="buttons-round__left" data-target="hide-btn"><a href="tel:+74956658258">
+            <nobr>+7(495)6658258</nobr></a></div><!--div.buttons-round__right.buttons-round--hidden
+        <button class="btn-round btn-round--back-to-top js-back-to-top__btn" type="button">
+          <svg width="36" height="22"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-arrow-up"></use></svg>Наверх--></button>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+    <script type="text/javascript" src="../../js/vendor.js"></script>
+    <script type="text/javascript" src="../../js/main.js"></script>
+  </body>
+</html>

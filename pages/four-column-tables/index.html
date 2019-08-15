@@ -1,0 +1,1445 @@
+<!DOCTYPE html>
+<html class="mf" lang="ru-RU">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gardium-bx-site-redesign</title>
+    <link rel="stylesheet" href="../../css/style.css" media="screen"><!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script type="text/javascript" src="../../js/core.js"></script>
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="page-header__top">
+        <div class="container">
+          <div class="row-lp-xs">
+            <div class="col-1-4-lg col-lp-1-2-xs"><a class="page-header__logo" href="/"><img src="../../assets/images/logos/logo.png" width="213" height="71" alt="Гардиум - патентные поверенные и судебные адвокаты"></a></div>
+            <div class="col-1-2-lg hide-up-to-lg">
+              <div class="page-header__locations-block">
+                <div class="page-header__slogan-title">Надёжность и ответственность в Федеральном Масштабе</div>
+                <div class="page-header__row">
+                  <div class="page-header__address-block">
+                    <address class="page-header__address">Центральный офис: Москва,<br> Рязанский проспект, 75к4</address>
+                    <div><a class="link-unstyled" href="tel:+74956658258">+7 495 665-82-58</a></div><a class="page-header__map-link js-fancy-modal-lp-lg" href="#road-map">Схема проезда</a>
+                  </div>
+                  <div class="page-header__address-block">
+                    <div class="page-header__region-offices">
+                      <address class="page-header__address">Офис в вашем городе:
+                        <div class="page-header__city-info"><span class="page-header__address-icon">
+                                <svg width="11" height="13">
+                                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-map--red"></use>
+                                </svg></span><a class="page-header__city-link" href="#"><span class="js-tooltip-city js-tooltip-city--header" data-tooltip-content="#tooltip-content-city-list">Санкт-Петербург </span></a></div>Синопская набережная,&nbsp;22
+                        <div class="city-list-content">
+                          <ul class="city-list" id="tooltip-content-city-list">
+                            <li><a class="city-list__link" href="#">Воронеж</a><span>, ул. Никитинская, д. 42</span></li>
+                            <li><a class="city-list__link" href="#">Екатеринбург</a><span>, ул.Хохрякова, д.10</span></li>
+                            <li><a class="city-list__link" href="#">Нижний Новгород</a><span>, ул. Ковалихинская, д. 8</span></li>
+                            <li><a class="city-list__link" href="#">Казань</a><span>, ул. Право-Булачная, д. 35/2</span></li>
+                            <li><a class="city-list__link" href="#">Саратов</a><span>, ул. Московская, д. 55</span></li>
+                            <li><a class="city-list__link" href="#">Уфа</a><span>, ул. Первомайская, д. 29</span></li>
+                            <li><a class="city-list__link" href="#">Ростов-на-Дону</a><span>, ул. 50-летия Ростсельмаша, 1/52</span></li>
+                            <li><a class="city-list__link" href="#">Ярославль</a><span>, ул. Некрасова, д. 41</span></li>
+                          </ul>
+                        </div>
+                      </address>
+                    </div><a class="page-header__map-link js-fancy-modal-lp-lg" href="#road-map">Схема проезда</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1-4-lg col-lp-1-2-xs">
+              <div class="page-header__contacts js-show-callback-form">
+                <address class="page-header__phone"><a href="tel:+74956658258">+7 (495) 665-82-58</a></address>
+                <div class="page-header__callback-wrapper">
+                  <button class="page-header__callback-btn js-show-callback-form__btn" type="button">Заказать звонок</button>
+                  <div class="page-header__callback-popup is-hidden js-show-callback-form__form">
+                    <button class="page-header__callback-popup-close js-show-callback-form__close-btn" type="button">Закрыть</button>
+                    <form class="form form--mt0 form--call-order js-form">
+                      <div class="form-row form-row--pb0">
+                        <div class="form-col form-col--pt20">
+                          <div class="form-input form-input--text">
+                            <label for="form-input-10-1">Ваше имя<span class="asterisk">*</span></label>
+                            <input id="form-input-10-1" type="text" required>
+                          </div>
+                        </div>
+                        <div class="form-col form-col--pb0">
+                          <div class="form-input form-input--text">
+                            <label for="form-input-10-2">Телефон<span class="asterisk">*</span></label>
+                            <input id="form-input-10-2" type="text" placeholder="+7 (925) 490-22-10" required>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-row form-row--pt0">
+                        <div class="form-col">
+                          <div class="form-input form-input--button">
+                            <button class="btn btn-full js-form-submit" type="button">Заказать</button>
+                          </div>
+                        </div>
+                        <div class="form-col">
+                          <div class="form-input form-input--check-footer js-form-privacy-agree">
+                            <label class="input-checkbox">
+                              <input id="form-input-1-17" type="checkbox" checked><span class="js-form-privacy-agree-short">Соглашаюсь на
+                                <button class="dotted js-form-privacy-agree-responsive-btn" type="button" target="_blank"><span>обработку персональных данных</span></button></span><span class="hide-xs js-form-privacy-agree-full">Нажимая кнопку «Заказать услугу», я принимаю условия <a href="#" target="_blank">Пользовательского соглашения</a> и даю своё согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных <a href="#" target="_blank">Политикой конфиденциальности</a><br> 
+                                <button class="input-checkbox__close-btn dotted js-form-privacy-agree-close-btn" type="button"><span>Скрыть</span></button></span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="main-nav js-main-nav">
+        <div class="main-nav__inner container">
+          <button class="main-nav__menu-btn js-main-nav__btn" type="button"><span class="main-nav__menu-icon"><svg width="15" height="13"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-hamburger"></use></svg><span class="main-nav__menu-text-link">Меню</span></span></button>
+          <!--a.main-nav__full-version-link(href="#") Полная версия сайта--><a class="main-nav__phone" href="tel:+74956658258">+7 (495) 665-82-58</a>
+          <ul class="main-nav__list js-main-nav__list">
+            <li class="main-nav__item"><a class="main-nav__link" href="">О нас</a>
+              <div class="main-nav__dropdown">
+                <ul class="main-nav__dropdown-list">
+                  <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/o-nas/patentnye-poverennye/">Патентные поверенные</a></li>
+                  <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/o-nas/urist-po-intellektualnoi-sobstvennosti/">Юристы по<br> интеллектуальной<br> собственности</a></li>
+                  <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/praktika/">Практика</a></li>
+                  <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/o-nas/gardium-wiseadvice-otzyvy-sotrudnikov/">Карьера</a></li>
+                  <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/information/publications/">Публикации в СМИ</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="main-nav__item"><a class="main-nav__link" href="../price-page/index.html">Услуги и цены</a>
+              <div class="main-nav__mobile-subsection">
+                <ul class="main-nav__mobile-list">
+                  <li class="main-nav__mobile-item"><a class="main-nav__mobile-link" href="../price-page/index.html#rere">знаки</a></li>
+                  <li class="main-nav__mobile-item"><a class="main-nav__mobile-link" href="#">патенты</a></li>
+                  <li class="main-nav__mobile-item"><a class="main-nav__mobile-link" href="#">программы</a></li>
+                  <li class="main-nav__mobile-item"><a class="main-nav__mobile-link" href="#">договоры</a></li>
+                  <li class="main-nav__mobile-item"><a class="main-nav__mobile-link" href="#">споры</a></li>
+                </ul>
+              </div>
+              <div class="main-nav__dropdown">
+                <div class="main-nav__dropdown-row">
+                  <div class="main-nav__dropdown-col"><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/services/trademarks/">Товарные знаки</a>
+                    <ul class="main-nav__dropdown-list">
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/trademarks/proverka-tovarnogo-znaka/">Проверка в Роспатенте</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/trademarks/registraciya-tovarnogo-znaka/">Регистрация товарного знака в РФ</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/trademarks/uskorennaya-registraciya-tovarnogo-znaka/">Ускоренная регистрация</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/trademarks/mezhdunarodnaya-registraciya-tovarnogo-znaka/">Международная регистрация</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/trademarks/tamozhennyi-reestr-obektov-intellektualnoi-sobstvennosti-trois/">Внесение в ТРОИС ФТС</a></li>
+                    </ul><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/services/patent/">Патентование</a>
+                    <ul class="main-nav__dropdown-list">
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/patent/izobretenie/">Изобретение</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/patent/poleznaya-model/">Полезная модель</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/patent/promyshlennyi-obrazec/">Промышленный образец</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/patent/proverka-patentnoi-chistoty/">Патентные исследования</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/patent/mezhdunarodnoe-patentovane/">Международное патентование</a></li>
+                    </ul><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/services/programms/">Программы и базы данных</a>
+                    <ul class="main-nav__dropdown-list">
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/programms/patentovanie-reshenii-v-sfere-it/">Патент на IT решения и сайты</a></li>
+                    </ul>
+                  </div>
+                  <div class="main-nav__dropdown-col"><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/services/spory/">Споры: защита прав</a>
+                    <ul class="main-nav__dropdown-list">
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/spory/patentnye-spory/">Защита в Палате по патентным спорам (ППС)</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/spory/sud-po-intellektualnym-pravam/">Защита в Суде по интеллектуальным правам (СИП)</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/spory/zashhita-klienta-v-arbitrazhnom-sude/">Защита в арбитражном суде</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/spory/zashhita-v-federalnoi-antimonopolnoi-sluzhbe/">Защита интересов в Антимонопольной службе (ФАС)</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/spory/nezakonnoe-ispolzovanie-tovarnogo-znaka/">Защита при нарушении прав на товарный знак</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/spory/">Защита при нарушении прав на патент</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/programms/spory-v-sfere-it/">Защита при нарушении прав на программы</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/spory/zashhita-delovoi-reputacii-chesti-i-dostoinstva/">Защита чести, достоинства, деловой репутации</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/spory/narushenie-patentnyh-prav-i-vzyskanie-kompensacii/">Взыскание компенсации</a></li>
+                    </ul><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/services/registraciya-dogovorov/">Договоры: передача прав</a>
+                    <ul class="main-nav__dropdown-list">
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/registraciya-dogovorov/licenzionnyi-dogovor/">Лицензионный договор</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/registraciya-dogovorov/registraciya-dogovora-kommercheskoi-koncessii/">Франчайзинг (коммерческая концессия)</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/registraciya-dogovorov/dogovor-otchuzhdeniya/">Отчуждение прав</a></li>
+                      <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link" href="/services/registraciya-dogovorov/peredacha-iskluchitelnyh-prav/">Сопровождение сделок</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="main-nav__item"><a class="main-nav__link" href="">Клиенты</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="">Инфо</a>
+              <div class="main-nav__dropdown">
+                <ul class="main-nav__dropdown-list">
+                  <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/information/blog/">Блог</a></li>
+                  <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/information/faq/">Частые вопросы</a></li>
+                  <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/news/">Новости</a></li>
+                  <li class="main-nav__dropdown-item"><a class="main-nav__dropdown-link main-nav__dropdown-link--lg" href="/information/publications/">Публикации в СМИ</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="main-nav__item"><a class="main-nav__link" href="">Контакты</a></li>
+          </ul>
+          <div class="page-header__search">
+            <form class="page-header__search-form">
+              <input class="page-header__search-input" type="search" placeholder="Поиск по сайту">
+              <button class="page-header__search-btn" type="submit">Найти
+                      <svg width="14" height="14">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-search-v2"></use>
+                      </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="main-slider">
+      <div class="main-slider__items js-main-slider">
+        <div class="main-slider__item main-slider__item--reliability">
+          <div class="main-slider__container container">
+            <div class="main-slider__inner">
+              <div class="main-slider__left">
+                <ul class="main-slider__features">
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Консалтинговая группа WiseAdvice образована в 2003 году. С 2004 года в группе начало работу Патентное бюро.">10 лет на рынке</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Нам доверяют крупнейшие Российские и международные компании, средний и малый бизнес, а также ученые.">Более 5000 клиентов</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Удовлетворенность каждого клиента исследуется по методике Customer Satisfaction Index (CSI)">Оценка удовлетворенности CSI 4,7 из 5</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Полис №ОК26-140400530/1/WV-D22 от 30 апреля 2014 года выдан ОАО Страховая компания «Альянс»">Полис страхования 10 млн. руб.</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Мы используем специально разработанную автоматизированную систему делопроизводства для исключения риска совершения ошибок.">Автоматизированное делопроизводство</span></li>
+                </ul>
+              </div>
+              <div class="main-slider__right"><a class="main-slider__slogan" href="">
+                  <div class="main-slider__slogan-title">Наивысшая надежность и&nbsp;ответственность<br> <span class="main-slider__slogan-subtitle">В федеральном масштабе</span></div></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="main-slider__item main-slider__item--defense">
+          <div class="main-slider__container container">
+            <div class="main-slider__inner row">
+              <div class="main-slider__left">
+                <ul class="main-slider__features">
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Консалтинговая группа WiseAdvice образована в 2003 году. С 2004 года в группе начало работу Патентное бюро.">10 лет на рынке</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Нам доверяют крупнейшие Российские и международные компании, средний и малый бизнес, а также ученые.">Более 5000 клиентов</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Удовлетворенность каждого клиента исследуется по методике Customer Satisfaction Index (CSI)">Оценка удовлетворенности CSI 4,7 из 5</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Полис №ОК26-140400530/1/WV-D22 от 30 апреля 2014 года выдан ОАО Страховая компания «Альянс»">Полис страхования 10 млн. руб.</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Мы используем специально разработанную автоматизированную систему делопроизводства для исключения риска совершения ошибок.">Автоматизированное делопроизводство</span></li>
+                </ul>
+              </div>
+              <div class="main-slider__right"><a class="main-slider__slogan" href="">
+                  <div class="main-slider__slogan-title">Гарантированная<br> защита<br> <span class="main-slider__slogan-subtitle">в Роспатенте и суде</span></div></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="main-slider__item main-slider__item--confidentiality">
+          <div class="main-slider__container container">
+            <div class="main-slider__inner row">
+              <div class="main-slider__left">
+                <ul class="main-slider__features">
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Консалтинговая группа WiseAdvice образована в 2003 году. С 2004 года в группе начало работу Патентное бюро.">10 лет на рынке</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Нам доверяют крупнейшие Российские и международные компании, средний и малый бизнес, а также ученые.">Более 5000 клиентов</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Удовлетворенность каждого клиента исследуется по методике Customer Satisfaction Index (CSI)">Оценка удовлетворенности CSI 4,7 из 5</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Полис №ОК26-140400530/1/WV-D22 от 30 апреля 2014 года выдан ОАО Страховая компания «Альянс»">Полис страхования 10 млн. руб.</span></li>
+                  <li><span class="dotted dotted--white js-tooltip-right" title="Мы используем специально разработанную автоматизированную систему делопроизводства для исключения риска совершения ошибок.">Автоматизированное делопроизводство</span></li>
+                </ul>
+              </div>
+              <div class="main-slider__right"><a class="main-slider__slogan" href="">
+                  <div class="main-slider__slogan-title">Полная конфиденциальность<br> <span class="main-slider__slogan-subtitle">информация под защитой</span></div></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+          <div class="breadcrumbs breadcrumbs--clear"></div>
+    <main>
+      <section class="section">
+        <div class="container">
+          <h2 class="section__title">Четырехколоночные таблицы</h2>
+          <p>Для четырехколоночных таблиц - не всех, но некоторых - применяется класс .table--four-column в сочетании с ещё одним модификатором.</p>
+          <h3>Вариант №1</h3>
+          <P><b>Важно</b>. Эта таблица встречается в единственном экземпляре. Её верстка также является исключением: она больше не повторяется нигде.</P>
+          <p>Для реализации адаптивной раскладки используются классы .table--four-column.table--exeption</p>
+          <p>Требуется дублирование табличных данных на маленьких вьюпортах.</p>
+          <p><a href="http://bx-gardium.1000likes.ru/information/faq/patent/baza-dannyh-patentov-kak-poluchit-dostup/">http://bx-gardium.1000likes.ru/information/faq/patent/baza-dannyh-patentov-kak-poluchit-dostup/</a></p>
+          <table class="table table--four-column table--exeption">
+            <thead class="hide-up-to-lg">
+              <tr>
+                <th colspan="4">Популярные базы патентов в сети интернет</th>
+              </tr>
+              <tr>
+                <th>Универсальные</th>
+                <th>Международные</th>
+                <th>Региональные</th>
+                <th>Национальные</th>
+              </tr>
+            </thead>
+            <tbody class="hide-up-to-lg">
+              <tr>
+                <td>Неофициальные агрегаторы патентной информации</td>
+                <td>База Всемирной организации интеллектуальной собственности (ВОИС)</td>
+                <td>Базы региональных патентных ведомств</td>
+                <td>Базы данных государств. Наиболее популярные базы:</td>
+              </tr>
+              <tr>
+                <td>Google Patent Search (новая версия)</td>
+                <td>PATENTSCOPE</td>
+                <td>База данных Европейского патентного ведомства (Esp@cenet)</td>
+                <td>Базы данных Федерального института промышленной собственности (ИИПС и др.)</td>
+              </tr>
+              <tr>
+                <td>Google Patent Search (старая версия)</td>
+                <td></td>
+                <td>База данных Евразийского патентного ведомства (ЕАПАТИС)</td>
+                <td>База данных Бюро патентов и торговых знаков США (USPTO)</td>
+              </tr>
+              <tr>
+                <td>Google Prior Art Finder</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+            <thead class="hide-lg">
+              <tr>
+                <th colspan="2">Популярные базы патентов в сети интернет</th>
+              </tr>
+              <tr>
+                <th>Универсальные</th>
+                <th>Международные</th>
+              </tr>
+            </thead>
+            <tbody class="hide-lg">
+              <tr>
+                <td>Неофициальные агрегаторы патентной информации</td>
+                <td>База Всемирной организации интеллектуальной собственности (ВОИС)</td>
+              </tr>
+              <tr>
+                <td>Google Patent Search (новая версия)</td>
+                <td>PATENTSCOPE</td>
+              </tr>
+              <tr>
+                <td>Google Patent Search (старая версия)</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Google Prior Art Finder</td>
+                <td></td>
+              </tr>
+            </tbody>
+            <thead class="hide-lg">
+              <tr>
+                <th>Региональные</th>
+                <th>Национальные</th>
+              </tr>
+            </thead>
+            <tbody class="hide-lg">
+              <tr>
+                <td>Базы региональных патентных ведомств</td>
+                <td>Базы данных государств. Наиболее популярные базы:</td>
+              </tr>
+              <tr>
+                <td>База данных Европейского патентного ведомства (Esp@cenet)</td>
+                <td>Базы данных Федерального института промышленной собственности (ИИПС и др.)</td>
+              </tr>
+              <tr>
+                <td>База данных Евразийского патентного ведомства (ЕАПАТИС)</td>
+                <td>База данных Бюро патентов и торговых знаков США (USPTO)</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="table-data table-data--from-two-column-table">
+            <h3 class="table-data__title">Популярные базы патентов в сети интернет</h3>
+            <h4 class="h4-like">Универсальные</h4>
+            <p>Неофициальные агрегаторы патентной информации</p>
+            <ul class="check-marker-list">
+              <li>Google Patent Search (новая версия)</li>
+              <li>Google Patent Search (старая версия)</li>
+              <li>Google Prior Art Finder</li>
+            </ul>
+            <h4 class="h4-like">Международные</h4>
+            <p>База Всемирной организации интеллектуальной собственности (ВОИС)</p>
+            <ul class="check-marker-list">
+              <li>PATENTSCOPE</li>
+            </ul>
+            <h4 class="h4-like">Региональные</h4>
+            <p>Базы региональных патентных ведомств</p>
+            <ul class="check-marker-list">
+              <li>База данных Европейского патентного ведомства (Esp@cenet)</li>
+              <li>База данных Евразийского патентного ведомства (ЕАПАТИС)</li>
+            </ul>
+            <h4 class="h4-like">Национальные</h4>
+            <p>Базы данных государств. Наиболее популярные базы:</p>
+            <ul class="check-marker-list">
+              <li>Базы данных Федерального института промышленной собственности (ИИПС и др.)</li>
+              <li>База данных Бюро патентов и торговых знаков США (USPTO)</li>
+            </ul>
+          </div>
+          <h3>Вариант №2</h3>
+          <p>Таблица на ширине до 992px скрывается - класс .hide-up-to-lg. На ширине c 550px до 768px таблица представляется в виде трех двухколоночных таблиц .table--two-column.table--hidden.hide-lg, которые складываются в дублиюрующие блоки .table-data.table-data--from-two-column-table на ширине до 550px.</p>
+          <p>Требуется дублирование табличных данных на маленьких вьюпортах.</p>
+          <p>Способ дублирования: заголовок 2-го столбца каждой получившейся двухколоночной таблицы  в виде h3.table-data__title + список, в каждом пункте которого информация сразу из двух ячеек одного ряда.</p>
+          <p><a href="http://bx-gardium.1000likes.ru/services/trademarks/zashhita-prav-na-tovarnyi-znak/">http://bx-gardium.1000likes.ru/services/trademarks/zashhita-prav-na-tovarnyi-znak/</a><br>
+            <a href="http://bx-gardium.1000likes.ru/services/registraciya-dogovorov/">http://bx-gardium.1000likes.ru/services/registraciya-dogovorov/</a><br>
+            <a href="http://bx-gardium.1000likes.ru/information/faq/patent/kakie-byvaut-patenty/">http://bx-gardium.1000likes.ru/information/faq/patent/kakie-byvaut-patenty/</a><br>
+            <a href="http://bx-gardium.1000likes.ru/information/faq/trademark/kakim-obrazom-osushhestvlyaetsya-mezhdunarodnaya-ohrana-tovarnyh-znakov/">http://bx-gardium.1000likes.ru/information/faq/trademark/kakim-obrazom-osushhestvlyaetsya-mezhdunarodnaya-ohrana-tovarnyh-znakov/</a><br>
+            <a href="http://bx-gardium.1000likes.ru/information/faq/patent/kak-opredelit-obekt-patentovaniya/">http://bx-gardium.1000likes.ru/information/faq/patent/kak-opredelit-obekt-patentovaniya/</a><br>
+            <a href="http://bx-gardium.1000likes.ru/services/trademarks/prekrashhenie-ohrany-tovarnogo-znaka/">http://bx-gardium.1000likes.ru/services/trademarks/prekrashhenie-ohrany-tovarnogo-znaka/</a><br>
+            <a href="http://bx-gardium.1000likes.ru/services/patent/kak-zapatentovat-ideu-v-rossii/">http://bx-gardium.1000likes.ru/services/patent/kak-zapatentovat-ideu-v-rossii/</a>
+          </p>
+          <p><a href="http://bx-gardium.1000likes.ru/services/registraciya-dogovorov/registraciya-dogovorov-v-rospatente/">http://bx-gardium.1000likes.ru/services/registraciya-dogovorov/registraciya-dogovorov-v-rospatente/</a></p>
+          <table class="table hide-up-to-lg">
+            <thead>
+              <tr>
+                <th>Критерий оценки</th>
+                <th>Лицензионный договор</th>
+                <th>Договор франшизы (коммерческой концессии)</th>
+                <th>Договор отчуждения</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Полнота передачи прав</td>
+                <td>Права могут передаваться полностью или по части зарегистрированных МКТУ</td>
+                <td>Права на товарный знак могут передаваться полностью или по части зарегистрированных МКТУ. Помимо этого в рамках договора могут передаваться права на патенты, ноу-хау, используемые при производстве продукции, маркируемой передаваемым знаком</td>
+                <td>Передаются все зарегистрированные права без исключения</td>
+              </tr>
+              <tr>
+                <td>Возможность использования товарного знака изначальным правообладателем после заключения договора</td>
+                <td>Возможно, если договором не предусмотрено иное</td>
+                <td>Возможно, если договором не предусмотрено иное</td>
+                <td>Не возможно</td>
+              </tr>
+              <tr>
+                <td>Возможность контроля за качеством производимой продукции</td>
+                <td>Правообладатель имеет право осуществлять контроль за качеством производимых или реализуемых товаров и услуг, маркируемых переданным по договору товарным знаком</td>
+                <td>Правообладатель обязан контролировать качество производимой продукции и сервис обслуживания клиентов. Пользователь обязан соблюдать инструкции, выданные правообладателем</td>
+                <td>Возможность контроля отсутствует</td>
+              </tr>
+              <tr>
+                <td>Возможность распоряжения правом</td>
+                <td>Пользователь может заключить сублицензионный договор с согласия правообладателя, если договором не предусмотрено иное</td>
+                <td>Пользователь может заключить субконцессионный договор с согласия правообладателя, если договором не предусмотрено иное</td>
+                <td>Новый правообладатель может распоряжаться правом на товарный знак любым не запрещенным законом способом без получения чьего-либо согласия</td>
+              </tr>
+              <tr>
+                <td>Порядок выплаты вознаграждения</td>
+                <td>Единоразовые или периодические фиксированные платежи, либо процент от дохода пользователя, принесенного благодаря использованию переданного права на знак</td>
+                <td>Единоразовые или периодические фиксированные платежи, либо процент от дохода пользователя, принесенного благодаря использованию переданного права на знак</td>
+                <td>Единоразовый платеж или периодические, как фиксированные, так и зависящие от уровня дохода, полученного от использования товарного знака</td>
+              </tr>
+              <tr>
+                <td>Срок регистрации</td>
+                <td>2 месяца</td>
+                <td>От 2 месяцев</td>
+                <td>2 месяца</td>
+              </tr>
+              <tr>
+                <td>Пошлины за государственную регистрацию договора</td>
+                <td>13500 рублей + 11500 рублей за каждый дополнительный знак по договору</td>
+                <td>colspan</td>
+                <td>colspan</td>
+              </tr>
+              <tr>
+                <td>Стоимость услуг по регистрации договоров в «Гардиум»</td>
+                <td class="table__centered-content"><b>От 25 100 рублей<br></b><a class="btn" href="http://www.legal-support.ru/services/forma_zakaza">Заказать</a></td>
+                <td class="table__centered-content"><b>От 30 300 рублей<br></b><a class="btn" href="http://www.legal-support.ru/services/forma_zakaza">Заказать</a></td>
+                <td class="table__centered-content"><b>От 25 100 рублей<br></b><a class="btn" href="http://www.legal-support.ru/services/forma_zakaza">Заказать</a></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td class="table__centered-content"><a href="http://www.legal-support.ru/services/registraciya-dogovorov/licenzionnyi-dogovor">Узнать подробнее</a></td>
+                <td class="table__centered-content"><a href="http://www.legal-support.ru/services/license-assignm/concession">Узнать подробнее</a></td>
+                <td class="table__centered-content"><a href="http://www.legal-support.ru/services/trademarks/assignment_contr.html">Узнать подробнее</a></td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="table table--two-column table--hidden hide-lg">
+            <thead>
+              <tr>
+                <th>Критерий оценки</th>
+                <th>Лицензионный договор</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Полнота передачи прав</td>
+                <td>Права могут передаваться полностью или по части зарегистрированных МКТУ</td>
+              </tr>
+              <tr>
+                <td>Возможность использования товарного знака изначальным правообладателем после заключения договора</td>
+                <td>Возможно, если договором не предусмотрено иное</td>
+              </tr>
+              <tr>
+                <td>Возможность контроля за качеством производимой продукции</td>
+                <td>Правообладатель имеет право осуществлять контроль за качеством производимых или реализуемых товаров и услуг, маркируемых переданным по договору товарным знаком</td>
+              </tr>
+              <tr>
+                <td>Возможность распоряжения правом</td>
+                <td>Пользователь может заключить сублицензионный договор с согласия правообладателя, если договором не предусмотрено иное</td>
+              </tr>
+              <tr>
+                <td>Порядок выплаты вознаграждения</td>
+                <td>Единоразовые или периодические фиксированные платежи, либо процент от дохода пользователя, принесенного благодаря использованию переданного права на знак</td>
+              </tr>
+              <tr>
+                <td>Срок регистрации</td>
+                <td>2 месяца</td>
+              </tr>
+              <tr>
+                <td>Пошлины за государственную регистрацию договора</td>
+                <td>13500 рублей + 11500 рублей за каждый дополнительный знак по договору</td>
+              </tr>
+              <tr>
+                <td>Стоимость услуг по регистрации договоров в «Гардиум»</td>
+                <td><b>От 25 100 рублей<br></b><a class="btn" href="http://www.legal-support.ru/services/forma_zakaza">Заказать</a></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><a href="http://www.legal-support.ru/services/registraciya-dogovorov/licenzionnyi-dogovor">Узнать подробнее</a></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="table-data table-data--from-two-column-table">
+            <h3 class="table-data__title">Лицензионный договор</h3>
+            <ul class="check-marker-list">
+              <li>Права могут передаваться полностью или по части зарегистрированных МКТУ</li>
+              <li>Использование товарного знака изначальным правообладателем после заключения договора возможно, если договором не предусмотрено иное</li>
+              <li>Правообладатель имеет право осуществлять контроль за качеством производимых или реализуемых товаров и услуг, маркируемых переданным по договору товарным знаком</li>
+              <li>Пользователь может заключить сублицензионный договор с согласия правообладателя, если договором не предусмотрено иное</li>
+              <li>Порядок выплаты вознаграждения: единоразовые или периодические фиксированные платежи, либо процент от дохода пользователя, принесенного благодаря использованию переданного права на знак</li>
+              <li>Срок регистрации: 2 месяца</li>
+              <li>Пошлины за государственную регистрацию договора: 13500 рублей + 11500 рублей за каждый дополнительный знак по договору</li>
+              <li>
+                <p>Стоимость услуг по регистрации договоров в «Гардиум»:<br><b>От 25 100 рублей</b></p><a class="btn" href="http://www.legal-support.ru/services/forma_zakaza">Заказать</a>
+              </li>
+              <li><a href="http://www.legal-support.ru/services/registraciya-dogovorov/licenzionnyi-dogovor">Узнать подробнее</a></li>
+            </ul>
+          </div>
+          <table class="table table--two-column table--hidden hide-lg">
+            <thead>
+              <tr>
+                <th>Критерий оценки</th>
+                <th>Договор франшизы (коммерческой концессии)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Полнота передачи прав</td>
+                <td>Права на товарный знак могут передаваться полностью или по части зарегистрированных МКТУ. Помимо этого в рамках договора могут передаваться права на патенты, ноу-хау, используемые при производстве продукции, маркируемой передаваемым знаком</td>
+              </tr>
+              <tr>
+                <td>Возможность использования товарного знака изначальным правообладателем после заключения договора</td>
+                <td>Возможно, если договором не предусмотрено иное</td>
+              </tr>
+              <tr>
+                <td>Возможность контроля за качеством производимой продукцииили реализуемых товаров и услуг, маркируемых переданным по договору товарным знаком</td>
+                <td>Правообладатель обязан контролировать качество производимой продукции и сервис обслуживания клиентов. Пользователь обязан соблюдать инструкции, выданные правообладателем</td>
+              </tr>
+              <tr>
+                <td>Возможность распоряжения правом</td>
+                <td>Пользователь может заключить субконцессионный договор с согласия правообладателя, если договором не предусмотрено иное</td>
+              </tr>
+              <tr>
+                <td>Порядок выплаты вознаграждения</td>
+                <td>Единоразовые или периодические фиксированные платежи, либо процент от дохода пользователя, принесенного благодаря использованию переданного права на знак</td>
+              </tr>
+              <tr>
+                <td>Срок регистрации</td>
+                <td>От 2 месяцев</td>
+              </tr>
+              <tr>
+                <td>Пошлины за государственную регистрацию договора</td>
+                <td>colspan</td>
+              </tr>
+              <tr>
+                <td>Стоимость услуг по регистрации договоров в «Гардиум»</td>
+                <td><b>От 30 300 рублей<br></b><a class="btn" href="http://www.legal-support.ru/services/forma_zakaza">Заказать</a></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><a href="http://www.legal-support.ru/services/license-assignm/concession">Узнать подробнее</a></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="table-data table-data--from-two-column-table">
+            <h3 class="table-data__ttitle">Договор франшизы (коммерческой концессии)</h3>
+            <ul class="check-marker-list">
+              <li>Права на товарный знак могут передаваться полностью или по части зарегистрированных МКТУ. Помимо этого в рамках договора могут передаваться права на патенты, ноу-хау, используемые при производстве продукции, маркируемой передаваемым знаком</li>
+              <li>Использование товарного знака изначальным правообладателем после заключения договора возможно, если договором не предусмотрено иное</li>
+              <li>Правообладатель обязан контролировать качество производимой продукции и сервис обслуживания клиентов. Пользователь обязан соблюдать инструкции, выданные правообладателем</li>
+              <li>Пользователь может заключить субконцессионный договор с согласия правообладателя, если договором не предусмотрено иное</li>
+              <li>Порядок выплаты вознаграждения: единоразовые или периодические фиксированные платежи, либо процент от дохода пользователя, принесенного благодаря использованию переданного права на знак</li>
+              <li>Срок регистрации: От 2 месяцев</li>
+              <li>Пошлины за государственную регистрацию договора: colspan</li>
+              <li>
+                <p>Стоимость услуг по регистрации договоров в «Гардиум»:<br><b>От 30 300 рублей</b></p><a class="btn" href="http://www.legal-support.ru/services/forma_zakaza">Заказать</a>
+              </li>
+              <li><a href="http://www.legal-support.ru/services/license-assignm/concession">Узнать подробнее</a></li>
+            </ul>
+          </div>
+          <table class="table table--two-column table--hidden hide-lg">
+            <thead>
+              <tr>
+                <th>Критерий оценки</th>
+                <th>Договор отчуждения</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Полнота передачи прав</td>
+                <td>Передаются все зарегистрированные права без исключения</td>
+              </tr>
+              <tr>
+                <td>Возможность использования товарного знака изначальным правообладателем после заключения договора</td>
+                <td>Не возможно</td>
+              </tr>
+              <tr>
+                <td>Возможность контроля за качеством производимой продукции</td>
+                <td>Возможность контроля отсутствует</td>
+              </tr>
+              <tr>
+                <td>Возможность распоряжения правом</td>
+                <td>Новый правообладатель может распоряжаться правом на товарный знак любым не запрещенным законом способом без получения чьего-либо согласия</td>
+              </tr>
+              <tr>
+                <td>Порядок выплаты вознаграждения</td>
+                <td>Единоразовый платеж или периодические, как фиксированные, так и зависящие от уровня дохода, полученного от использования товарного знака</td>
+              </tr>
+              <tr>
+                <td>Срок регистрации</td>
+                <td>2 месяца</td>
+              </tr>
+              <tr>
+                <td>Пошлины за государственную регистрацию договора</td>
+                <td>colspan</td>
+              </tr>
+              <tr>
+                <td>Стоимость услуг по регистрации договоров в «Гардиум»</td>
+                <td><b>От 25 100 рублей<br></b><a class="btn" href="http://www.legal-support.ru/services/forma_zakaza">Заказать</a></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><a href="http://www.legal-support.ru/services/trademarks/assignment_contr.html">Узнать подробнее</a></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="table-data table-data--from-two-column-table">
+            <h3 class="table-data__title">Договор франшизы (коммерческой концессии)</h3>
+            <ul class="check-marker-list">
+              <li>Передаются все зарегистрированные права без исключения</li>
+              <li>Использование товарного знака изначальным правообладателем после заключения договора не возможно</li>
+              <li>Возможность контроля  за качеством производимой продукции отсутствует</li>
+              <li>Новый правообладатель может распоряжаться правом на товарный знак любым не запрещенным законом способом без получения чьего-либо согласия</li>
+              <li>Порядок выплаты вознаграждения: единоразовый платеж или периодические, как фиксированные, так и зависящие от уровня дохода, полученного от использования товарного знака</li>
+              <li>Срок регистрации: 2 месяца</li>
+              <li>Пошлины за государственную регистрацию договора: colspan</li>
+              <li>
+                <p>Стоимость услуг по регистрации договоров в «Гардиум»:<br><b>От 25 100 рублей</b></p><a class="btn" href="http://www.legal-support.ru/services/forma_zakaza">Заказать</a>
+              </li>
+              <li><a href="http://www.legal-support.ru/services/trademarks/assignment_contr.html">Узнать подробнее</a></li>
+            </ul>
+          </div>
+          <p><a href="http://bx-gardium.1000likes.ru/services/trademarks/zashhita-prav-na-tovarnyi-znak/">http://bx-gardium.1000likes.ru/services/trademarks/zashhita-prav-na-tovarnyi-znak/</a></p>
+          <table class="table hide-up-to-lg">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Фирменное наименование</th>
+                <th>Коммерческое обозначение</th>
+                <th>Товарный знак</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Альтернативные названия</td>
+                <td>Название фирмы</td>
+                <td>Логотип, бренд, торговая марка, знак обслуживания</td>
+                <td>Логотип, бренд, торговая марка, знак обслуживания</td>
+              </tr>
+              <tr>
+                <td>Форма</td>
+                <td>Наименование организации, внесенное в ЕГРЮЛ</td>
+                <td>Любое обозначение в словесной, графической, комбинированной и иной форме</td>
+                <td>Любое обозначение в словесной, графической, комбинированной и иной форме</td>
+              </tr>
+              <tr>
+                <td>Пример</td>
+                <td>ООО «Юрайт»</td>
+                <td class="table__centered-content"><img src="http://www.legal-support.ru/sites/all/themes/gardium/gui/uright_logo_small.png" alt=""></td>
+                <td class="table__centered-content"><img src="http://www.legal-support.ru/sites/all/themes/gardium/gui/uright_logo_small.png" alt=""></td>
+              </tr>
+              <tr>
+                <td>Возможные правообладатели</td>
+                <td>Только юридические лица (для ИП неприменимо)</td>
+                <td>Юридические лица и индивидуальные предприниматели (ИП)</td>
+                <td>Юридические лица и индивидуальные предприниматели (ИП)</td>
+              </tr>
+              <tr>
+                <td>Подтверждение наличия права</td>
+                <td>Запись в ЕГРЮЛ</td>
+                <td>Требуется доказательство различительной способности и известности на определенной территории (очень сложно!)</td>
+                <td>Свидетельство о регистрации (выдается Роспатентом). Предусмотрена государственная регистрация (патентование)</td>
+              </tr>
+              <tr>
+                <td>Приоритет права при столкновении интересов</td>
+                <td>По более ранней дате регистрации в ЕГРЮЛ</td>
+                <td>Требуется доказывание даты начала использования (очень сложно!)</td>
+                <td>По более ранней дате подачи заявки на товарный знак в Роспатент</td>
+              </tr>
+              <tr>
+                <td>Число обозначений</td>
+                <td>1 юрлицо – 1 наименование</td>
+                <td>1 юрлицо – 1 обозначение</td>
+                <td>Без ограничений, возможна регистрация отдельных товарных знаков для каждого вида товаров и услуг</td>
+              </tr>
+              <tr>
+                <td>Возможность лишения права при неиспользовании</td>
+                <td>Не предусмотрено</td>
+                <td>1 год</td>
+                <td>3 года</td>
+              </tr>
+              <tr>
+                <td>Отчуждение (купля-продажа)</td>
+                <td>Невозможно</td>
+                <td>Невозможно</td>
+                <td>По договору отчуждения (купли-продажи), полностью или частично, без ограничений</td>
+              </tr>
+              <tr>
+                <td>Предоставление права на использование</td>
+                <td>Нет</td>
+                <td>По договору коммерческой концессии или договору аренды предприятия</td>
+                <td>По лицензионному договору (наиболее удобный способ) или договору коммерческой концессии</td>
+              </tr>
+              <tr>
+                <td>Ответственность за незаконное использование</td>
+                <td>
+                  <ol>
+                    <li>Запрет на использование</li>
+                    <li>Возмещение убытка (с доказыванием размера убытка, очень сложно и неоднозначно)</li>
+                  </ol>
+                </td>
+                <td>
+                  <ol>
+                    <li>Запрет на использование</li>
+                    <li>Возмещение убытка (с доказыванием размера убытка, очень сложно и неоднозначно)</li>
+                  </ol>
+                </td>
+                <td>
+                  <ol>
+                    <li>Запрет на использование</li>
+                    <li>Конфискация / уничтожение контрафактных товаров и услуг</li>
+                    <li>Компенсация до 5 000 000 руб. или 2–кратной стоимости контрафактных товаров (без доказывания убытка)</li>
+                    <li>Запрет на импорт контрафактных товаров через ФТС</li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="table table--two-column table--hidden hide-lg">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Фирменное наименование</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Альтернативные названия</td>
+                <td>Название фирмы</td>
+              </tr>
+              <tr>
+                <td>Форма</td>
+                <td>Наименование организации, внесенное в ЕГРЮЛ</td>
+              </tr>
+              <tr>
+                <td>Пример</td>
+                <td>ООО «Юрайт»</td>
+              </tr>
+              <tr>
+                <td>Возможные правообладатели</td>
+                <td>Только юридические лица (для ИП неприменимо)</td>
+              </tr>
+              <tr>
+                <td>Подтверждение наличия права</td>
+                <td>Запись в ЕГРЮЛ</td>
+              </tr>
+              <tr>
+                <td>Приоритет права при столкновении интересов</td>
+                <td>По более ранней дате регистрации в ЕГРЮЛ</td>
+              </tr>
+              <tr>
+                <td>Число обозначений</td>
+                <td>1 юрлицо – 1 наименование</td>
+              </tr>
+              <tr>
+                <td>Возможность лишения права при неиспользовании</td>
+                <td>Не предусмотрено</td>
+              </tr>
+              <tr>
+                <td>Отчуждение (купля-продажа)</td>
+                <td>Невозможно</td>
+              </tr>
+              <tr>
+                <td>Предоставление права на использование</td>
+                <td>Нет</td>
+              </tr>
+              <tr>
+                <td>Ответственность за незаконное использование</td>
+                <td>
+                  <ol>
+                    <li>Запрет на использование</li>
+                    <li>Возмещение убытка (с доказыванием размера убытка, очень сложно и неоднозначно)</li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="table-data table-data--from-two-column-table">
+            <h3 class="table-data__title">Фирменное наименование</h3>
+            <ul class="check-marker-list">
+              <li><b>Альтернативные названия<br></b>Название фирмы</li>
+              <li><b>Форма<br></b>Наименование организации, внесенное в ЕГРЮЛ</li>
+              <li><b>Пример<br></b>ООО «Юрайт»</li>
+              <li><b>Возможные правообладатели<br></b>Только юридические лица (для ИП неприменимо)</li>
+              <li><b>Подтверждение наличия права<br></b>Запись в ЕГРЮЛ</li>
+              <li><b>Приоритет права при столкновении интересов<br></b>По более ранней дате регистрации в ЕГРЮЛ</li>
+              <li><b>Число обозначений<br></b>1 юрлицо – 1 наименование</li>
+              <li><b>Возможность лишения права при неиспользовании<br></b>Не предусмотрено</li>
+              <li><b>Отчуждение (купля-продажа)<br></b>Невозможно</li>
+              <li><b>Предоставление права на использование<br></b>Нет</li>
+              <li><b>Ответственность за незаконное использование<br></b>
+                <ol>
+                  <li>Запрет на использование</li>
+                  <li>Возмещение убытка (с доказыванием размера убытка, очень сложно и неоднозначно)</li>
+                </ol>
+              </li>
+            </ul>
+          </div>
+          <table class="table table--two-column table--hidden hide-lg">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Коммерческое обозначение</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Альтернативные названия</td>
+                <td>Логотип, бренд, торговая марка, знак обслуживания</td>
+              </tr>
+              <tr>
+                <td>Форма</td>
+                <td>Любое обозначение в словесной, графической, комбинированной и иной форме</td>
+              </tr>
+              <tr>
+                <td>Пример</td>
+                <td class="table__centered-content"><img src="http://www.legal-support.ru/sites/all/themes/gardium/gui/uright_logo_small.png" alt=""></td>
+              </tr>
+              <tr>
+                <td>Возможные правообладатели</td>
+                <td>Юридические лица и индивидуальные предприниматели (ИП)</td>
+              </tr>
+              <tr>
+                <td>Подтверждение наличия права</td>
+                <td>Требуется доказательство различительной способности и известности на определенной территории (очень сложно!)</td>
+              </tr>
+              <tr>
+                <td>Приоритет права при столкновении интересов</td>
+                <td>Требуется доказывание даты начала использования (очень сложно!)</td>
+              </tr>
+              <tr>
+                <td>Число обозначений</td>
+                <td>1 юрлицо – 1 обозначение</td>
+              </tr>
+              <tr>
+                <td>Возможность лишения права при неиспользовании</td>
+                <td>1 год</td>
+              </tr>
+              <tr>
+                <td>Отчуждение (купля-продажа)</td>
+                <td>Невозможно</td>
+              </tr>
+              <tr>
+                <td>Предоставление права на использование</td>
+                <td>По договору коммерческой концессии или договору аренды предприятия</td>
+              </tr>
+              <tr>
+                <td>Ответственность за незаконное использование</td>
+                <td>
+                  <ol>
+                    <li>Запрет на использование</li>
+                    <li>Возмещение убытка (с доказыванием размера убытка, очень сложно и неоднозначно)</li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="table-data table-data--from-two-column-table">
+            <h3 class="table-data__title">Фирменное наименование</h3>
+            <ul class="check-marker-list">
+              <li><b>Альтернативные названия<br></b>Логотип, бренд, торговая марка, знак обслуживания</li>
+              <li><b>Форма<br></b>Любое обозначение в словесной, графической, комбинированной и иной формеЛ</li>
+              <li>
+                <p><b>Пример</b></p><img src="http://www.legal-support.ru/sites/all/themes/gardium/gui/uright_logo_small.png" alt="">
+              </li>
+              <li><b>Возможные правообладатели<br></b>Юридические лица и индивидуальные предприниматели (ИП)</li>
+              <li><b>Подтверждение наличия права<br></b>Требуется доказательство различительной способности и известности на определенной территории (очень сложно!)</li>
+              <li><b>Приоритет права при столкновении интересов<br></b>Требуется доказывание даты начала использования (очень сложно!)</li>
+              <li><b>Число обозначений<br></b>1 юрлицо – 1 обозначение</li>
+              <li><b>Возможность лишения права при неиспользовании<br></b>1 год</li>
+              <li><b>Отчуждение (купля-продажа)<br></b>Невозможно</li>
+              <li><b>Предоставление права на использование<br></b>По договору коммерческой концессии или договору аренды предприятия</li>
+              <li><b>Ответственность за незаконное использование<br></b>
+                <ol>
+                  <li>Запрет на использование</li>
+                  <li>Возмещение убытка (с доказыванием размера убытка, очень сложно и неоднозначно)</li>
+                </ol>
+              </li>
+            </ul>
+          </div>
+          <table class="table table--two-column table--hidden hide-lg">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Товарный знак</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Альтернативные названия</td>
+                <td>Логотип, бренд, торговая марка, знак обслуживания</td>
+              </tr>
+              <tr>
+                <td>Форма</td>
+                <td>Любое обозначение в словесной, графической, комбинированной и иной форме</td>
+              </tr>
+              <tr>
+                <td>Пример</td>
+                <td class="table__centered-content"><img src="http://www.legal-support.ru/sites/all/themes/gardium/gui/uright_logo_small.png" alt=""></td>
+              </tr>
+              <tr>
+                <td>Возможные правообладатели</td>
+                <td>Юридические лица и индивидуальные предприниматели (ИП)</td>
+              </tr>
+              <tr>
+                <td>Подтверждение наличия права</td>
+                <td>Свидетельство о регистрации (выдается Роспатентом). Предусмотрена государственная регистрация (патентование)</td>
+              </tr>
+              <tr>
+                <td>Приоритет права при столкновении интересов</td>
+                <td>По более ранней дате подачи заявки на товарный знак в Роспатент</td>
+              </tr>
+              <tr>
+                <td>Число обозначений</td>
+                <td>Без ограничений, возможна регистрация отдельных товарных знаков для каждого вида товаров и услуг</td>
+              </tr>
+              <tr>
+                <td>Возможность лишения права при неиспользовании</td>
+                <td>3 года</td>
+              </tr>
+              <tr>
+                <td>Отчуждение (купля-продажа)</td>
+                <td>По договору отчуждения (купли-продажи), полностью или частично, без ограничений</td>
+              </tr>
+              <tr>
+                <td>Предоставление права на использование</td>
+                <td>По лицензионному договору (наиболее удобный способ) или договору коммерческой концессии</td>
+              </tr>
+              <tr>
+                <td>Ответственность за незаконное использование</td>
+                <td>
+                  <ol>
+                    <li>Запрет на использование</li>
+                    <li>Конфискация / уничтожение контрафактных товаров и услуг</li>
+                    <li>Компенсация до 5 000 000 руб. или 2–кратной стоимости контрафактных товаров (без доказывания убытка)</li>
+                    <li>Запрет на импорт контрафактных товаров через ФТС</li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="table-data table-data--from-two-column-table">
+            <h3 class="table-data__title">Фирменное наименование</h3>
+            <ul class="check-marker-list">
+              <li><b>Альтернативные названия<br></b>Логотип, бренд, торговая марка, знак обслуживания</li>
+              <li><b>Форма<br></b>Любое обозначение в словесной, графической, комбинированной и иной формеЛ</li>
+              <li>
+                <p><b>Пример</b></p><img src="http://www.legal-support.ru/sites/all/themes/gardium/gui/uright_logo_small.png" alt="">
+              </li>
+              <li><b>Возможные правообладатели<br></b>Юридические лица и индивидуальные предприниматели (ИП)</li>
+              <li><b>Подтверждение наличия права<br></b>Свидетельство о регистрации (выдается Роспатентом). Предусмотрена государственная регистрация (патентование)</li>
+              <li><b>Приоритет права при столкновении интересов<br></b>По более ранней дате подачи заявки на товарный знак в Роспатент</li>
+              <li><b>Число обозначений<br></b>Без ограничений, возможна регистрация отдельных товарных знаков для каждого вида товаров и услуг</li>
+              <li><b>Возможность лишения права при неиспользовании<br></b>3 года</li>
+              <li><b>Отчуждение (купля-продажа)<br></b>По договору отчуждения (купли-продажи), полностью или частично, без ограничений</li>
+              <li><b>Предоставление права на использование<br></b>По лицензионному договору (наиболее удобный способ) или договору коммерческой концессии</li>
+              <li><b>Ответственность за незаконное использование<br></b>
+                <ol>
+                  <li>Запрет на использование</li>
+                  <li>Конфискация / уничтожение контрафактных товаров и услуг</li>
+                  <li>Компенсация до 5 000 000 руб. или 2–кратной стоимости контрафактных товаров (без доказывания убытка)</li>
+                  <li>Запрет на импорт контрафактных товаров через ФТС</li>
+                </ol>
+              </li>
+            </ul>
+          </div>
+          <h3>Вариант №3</h3>
+          <p>Таблица скрывается на меньшей ширине до 768px c помощью класса .hide-up-to-md.</p>
+          <p>Требуется дублирование табличных данных на маленьких вьюпортах. Блок .table-data.hide-md</p>
+          <p>Способ дублирования: список, в каждом пункте которого информация сразу из четырех ячеек одного ряда. <a href="https://yadi.sk/i/8E0zRhWI3NvEqZ">https://yadi.sk/i/8E0zRhWI3NvEqZ</a></p>
+          <p><a href="http://bx-gardium.1000likes.ru/information/faq/patent/formula-izobreteniya-kak-pravilno-sostavit/">http://bx-gardium.1000likes.ru/information/faq/patent/formula-izobreteniya-kak-pravilno-sostavit/</a></p>
+          <table class="table hide-up-to-md">
+            <thead>
+              <tr>
+                <th>№ части по порядку</th>
+                <th>Название части</th>
+                <th>Смысл</th>
+                <th>Слова, используемые в пункте формулы</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="table__centered-content">1</td>
+                <td>Родовое понятие</td>
+                <td>Отражает назначение изобретения</td>
+                <td>"Например: способ изготовления, фильтр для очистки и т. д."</td>
+              </tr>
+              <tr>
+                <td class="table__centered-content">2</td>
+                <td>Ограничительная часть</td>
+                <td>Признаки изобретения, совпадающие с признаками наиболее близкого аналога</td>
+                <td>"Включающий, содержащий, состоящий из"</td>
+              </tr>
+              <tr>
+                <td class="table__centered-content">3</td>
+                <td>Отличительная часть</td>
+                <td>Признаки, отличающие изобретение от наиболее близкого аналога</td>
+                <td>"Отличающийся тем, что"</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="table-data hide-md">
+            <ul class="check-marker-list">
+              <li><b>№ части по порядку:</b> 1<br>
+                <b>Название части:</b> родовое понятие<br>
+                <b>Смысл:</b> отражает назначение изобретения<br>
+                <b>Слова, используемые в пункте формулы:</b> способ изготовления, фильтр для очистки и т. д.
+              </li>
+              <li><b>№ части по порядку:</b> 2<br>
+                <b>Название части:</b> ограничительная часть<br>
+                <b>Смысл:</b> признаки изобретения, совпадающие с признаками наиболее близкого аналога<br>
+                <b>Слова, используемые в пункте формулы:</b> включающий, содержащий, состоящий из
+              </li>
+              <li><b>№ части по порядку:</b> 3<br>
+                <b>Название части:</b> отличительная часть<br>
+                <b>Смысл:</b> признаки, отличающие изобретение от наиболее близкого аналога<br>
+                <b>Слова, используемые в пункте формулы:</b> отличающийся тем, что
+              </li>
+            </ul>
+          </div>
+          <h3>Вариант №4</h3>
+          <p>Таблица скрывается на меньшей ширине до 768px c помощью класса .hide-up-to-md.</p>
+          <p>Требуется дублирование табличных данных на маленьких вьюпортах. Блок .table-data.hide-md</p>
+          <p>Способ дублирования: пары - заголовок каждого столбца как h3.table-data__title + список <b>соответствующих</b>документов из первого столбца</p>
+          <p><a href="http://bx-gardium.1000likes.ru/information/faq/patent/zayavka-na-poluchenie-patenta-kak-pravilno-sostavit/">http://bx-gardium.1000likes.ru/information/faq/patent/zayavka-na-poluchenie-patenta-kak-pravilno-sostavit/</a></p>
+          <table class="table hide-up-to-md">
+            <thead>
+              <tr>
+                <th>Документ</th>
+                <th>Изобретение</th>
+                <th>Полезная модель</th>
+                <th>Промышленный образец</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>заявление</td>
+                <td class="table__icon-check"></td>
+                <td class="table__icon-check"></td>
+                <td class="table__icon-check"></td>
+              </tr>
+              <tr>
+                <td>описание</td>
+                <td class="table__icon-check"></td>
+                <td class="table__icon-check"></td>
+                <td class="table__icon-check"></td>
+              </tr>
+              <tr>
+                <td>формула</td>
+                <td class="table__icon-check"></td>
+                <td class="table__icon-check"></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>реферат</td>
+                <td class="table__icon-check"></td>
+                <td class="table__icon-check"></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>чертеж</td>
+                <td class="table__icon-check"></td>
+                <td class="table__icon-check"></td>
+                <td class="table__icon-check"></td>
+              </tr>
+              <tr>
+                <td>изображение</td>
+                <td></td>
+                <td></td>
+                <td class="table__icon-check"></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="table-data hide-md">
+            <h3 class="table-data__title">Изобретение</h3>
+            <ul class="check-marker-list">
+              <li>заявление</li>
+              <li>описание</li>
+              <li>формула</li>
+              <li>реферат</li>
+              <li>чертеж</li>
+            </ul>
+            <h3 class="table-data__title">Полезная модель</h3>
+            <ul class="check-marker-list">
+              <li>заявление</li>
+              <li>описание</li>
+              <li>формула</li>
+              <li>реферат</li>
+              <li>чертеж</li>
+            </ul>
+            <h3 class="table-data__title">Промышленный образец</h3>
+            <ul class="check-marker-list">
+              <li>заявление</li>
+              <li>описание</li>
+              <li>чертеж</li>
+              <li>изображение</li>
+            </ul>
+          </div>
+          <h3>Вариант №5</h3>
+          <p>Применяется класс .table--transformed-with-images.</p>
+          <p>Таблица-исключение</p>
+          <p><a href="http://bx-gardium.1000likes.ru/information/faq/trademark/kakie-preimushhestva-daet-zaregistrirovannyi-tovarnyi-znak/">http://bx-gardium.1000likes.ru/information/faq/trademark/kakie-preimushhestva-daet-zaregistrirovannyi-tovarnyi-znak/</a></p>
+          <table class="table table--four-column table--transformed-with-images">
+            <thead class="hide-up-to-lg">
+              <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody class="hide-up-to-lg">
+              <tr>
+                <td><img src="http://www.legal-support.ru/sites/all/themes/gardium/img/Logo_02.png" alt=""></td>
+                <td><img src="http://www.legal-support.ru/sites/all/themes/gardium/img/Logo_03.png" alt=""></td>
+                <td><img src="http://www.legal-support.ru/sites/all/themes/gardium/img/Logo_07.png" alt=""></td>
+                <td><img src="http://www.legal-support.ru/sites/all/themes/gardium/img/Logo_10.png" alt=""></td>
+              </tr>
+            </tbody>
+            <thead class="hide-lg">
+              <tr>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody class="hide-lg">
+              <tr>
+                <td><img src="http://www.legal-support.ru/sites/all/themes/gardium/img/Logo_02.png" alt=""></td>
+                <td><img src="http://www.legal-support.ru/sites/all/themes/gardium/img/Logo_03.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><img src="http://www.legal-support.ru/sites/all/themes/gardium/img/Logo_07.png" alt=""></td>
+                <td><img src="http://www.legal-support.ru/sites/all/themes/gardium/img/Logo_10.png" alt=""></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="page-footer__top container">
+        <div class="row-md">
+          <div class="page-footer__col page-footer__col--push-1-4 js-show-callback-form">
+            <address>
+              <div class="page-footer__phone"><a href="tel:+74956658258">+7 (495) 665-82-58</a></div><a class="page-footer__link" href="mailto:info@gardium.ru">info@gardium.ru</a>
+            </address>
+            <div class="page-footer__callback-wrapper">
+              <button class="page-footer__callback-btn js-show-callback-form__btn btn btn--xs" type="button">Заказать звонок</button>
+              <div class="page-footer__callback-popup is-hidden js-show-callback-form__form">
+                <button class="page-footer__callback-popup-close js-show-callback-form__close-btn" type="button">Закрыть</button>
+                <form class="form form--mt0 form--call-order js-form">
+                  <div class="form-row form-row--pb0">
+                    <div class="form-col form-col--pt20">
+                      <div class="form-input form-input--text">
+                        <label for="form-input-10-1">Ваше имя<span class="asterisk">*</span></label>
+                        <input id="form-input-10-1" type="text" required>
+                      </div>
+                    </div>
+                    <div class="form-col form-col--pb0">
+                      <div class="form-input form-input--text">
+                        <label for="form-input-10-2">Телефон<span class="asterisk">*</span></label>
+                        <input id="form-input-10-2" type="text" placeholder="+7 (925) 490-22-10" required>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-row form-row--pt0">
+                    <div class="form-col">
+                      <div class="form-input form-input--button">
+                        <button class="btn btn-full js-form-submit" type="button">Заказать</button>
+                      </div>
+                    </div>
+                    <div class="form-col">
+                      <div class="form-input form-input--check-footer js-form-privacy-agree">
+                        <label class="input-checkbox">
+                          <input id="form-input-1-17" type="checkbox" checked><span class="js-form-privacy-agree-short">Соглашаюсь на
+                            <button class="dotted js-form-privacy-agree-responsive-btn" type="button" target="_blank"><span>обработку персональных данных</span></button></span><span class="hide-xs js-form-privacy-agree-full">Нажимая кнопку «Заказать услугу», я принимаю условия <a href="#" target="_blank">Пользовательского соглашения</a> и даю своё согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных <a href="#" target="_blank">Политикой конфиденциальности</a><br> 
+                            <button class="input-checkbox__close-btn dotted js-form-privacy-agree-close-btn" type="button"><span>Скрыть</span></button></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="page-footer__location-block page-footer__location-block--hidden-on-desktop">
+              <div class="page-footer__address"><span class="page-footer__address-text">Центральный офис: Москва, Рязанский проспект, 75к4</span></div><a class="page-footer__map-link js-fancy-modal-lp-lg" href="#road-map">Схема проезда</a>
+            </div>
+          </div>
+          <div class="page-footer__col page-footer__col--pull-1-4">
+            <div class="page-footer__copyright">© 2005–2017, ООО «Гардиум» <br> Все права защищены</div>
+                        <ul class="social-links social-links--inline">
+                          <li class="social-links__item"><a class="social-links__link" href="https://www.facebook.com/gardiumrussia" target="_blank" rel="noopener noreferrer"><span>
+                                            <svg width="8" height="16">
+                                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-fb"></use>
+                                            </svg></span></a></li>
+                          <li class="social-links__item"><a class="social-links__link social-links__link--vk" href="https://vk.com/gardium" target="_blank" rel="noopener noreferrer"><span>
+                                            <svg width="15" height="15">
+                                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-vk"></use>
+                                            </svg></span></a></li>
+                        </ul>
+          </div>
+          <div class="page-footer__col page-footer__col--hidden-on-tablet">
+            <div class="page-footer__location-block">
+              <div class="page-footer__address"><span class="page-footer__address-text">Центральный офис: Москва, Рязанский проспект, 75к4</span></div><a class="page-footer__map-link js-fancy-modal-lp-lg" href="#road-map">Схема проезда</a>
+            </div>
+            <div class="page-footer__location-block">
+              <div class="page-footer__address"><span class="page-footer__address-text">Офис в вашем городе:</span>
+                <div class="page-footer__city-info"><span class="page-footer__address-icon"><svg width="11" height="13"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-map"></use></svg></span><a class="page-footer__city-link"><span class="js-tooltip-city js-tooltip-city--footer" data-tooltip-content="#tooltip-content-city-list">Санкт-Петербург, </span></a></div>Синопская набережная, 22
+                <div class="city-list-content">
+                  <ul class="city-list" id="tooltip-content-city-list">
+                    <li><a class="city-list__link" href="#">Воронеж</a><span>, ул. Никитинская, д. 42</span></li>
+                    <li><a class="city-list__link" href="#">Екатеринбург</a><span>, ул.Хохрякова, д.10</span></li>
+                    <li><a class="city-list__link" href="#">Нижний Новгород</a><span>, ул. Ковалихинская, д. 8</span></li>
+                    <li><a class="city-list__link" href="#">Казань</a><span>, ул. Право-Булачная, д. 35/2</span></li>
+                    <li><a class="city-list__link" href="#">Саратов</a><span>, ул. Московская, д. 55</span></li>
+                    <li><a class="city-list__link" href="#">Уфа</a><span>, ул. Первомайская, д. 29</span></li>
+                    <li><a class="city-list__link" href="#">Ростов-на-Дону</a><span>, ул. 50-летия Ростсельмаша, 1/52</span></li>
+                    <li><a class="city-list__link" href="#">Ярославль</a><span>, ул. Некрасова, д. 41</span></li>
+                  </ul>
+                </div>
+              </div><a class="page-footer__map-link js-fancy-modal-lp-lg" href="#road-map">Схема проезда</a>
+            </div>
+          </div>
+          <div class="page-footer__col page-footer__col--hidden-on-tablet"><a class="page-footer__rec-info page-footer__rec-info--mb20" href="https://www.exportcenter.ru/partners/list/ooo_fpb_gardium/" target="_blank"><img src="../../assets/images/logos/logo-rec--white.png" width="53" height="32" alt="Логотип РЭЦ"><span>Аккредитованный партнер Российского экспортного центра</span></a>
+            <div class="js-show-content page-footer__other-companies">
+              <button class="dotted dotted--white js-show-content__btn" type="button" data-scroll-to="true" data-attribute="other-wiseadvice-companies"><span>Другие компании</span></button> консалтинговой группы <img class="page-footer__logo" src="../../assets/images/logos/logo-wiseadvice.png" alt="Логотип компании WiseAdvice">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-footer__bottom">
+        <div class="container">
+          <ul class="page-footer__nav row-lg">
+            <li class="col-1-4-lg"><a class="page-footer__nav-link" href="">Патентное бюро</a>
+              <ul class="page-footer__nav-list">
+                <li><a class="page-footer__nav-link" href="">О нас</a></li>
+                <li><a class="page-footer__nav-link" href="">Услуги и цены</a></li>
+                <li><a class="page-footer__nav-link" href="">Клиенты</a></li>
+                <li><a class="page-footer__nav-link" href="">Инфо</a></li>
+                <li><a class="page-footer__nav-link" href="">Контакты</a></li>
+              </ul>
+            </li>
+            <li class="col-1-4-lg"><a class="page-footer__nav-link" href="">Товарные знаки</a>
+              <ul class="page-footer__nav-list">
+                <li><a class="page-footer__nav-link" href="">Регистрация товарного знака</a></li>
+                <li><a class="page-footer__nav-link" href="">Регистрация торговой марки</a></li>
+                <li><a class="page-footer__nav-link" href="">Регистрация логотипа</a></li>
+                <li><a class="page-footer__nav-link" href="">Международная регистрация</a></li>
+                <li><a class="page-footer__nav-link" href="">Реестр товарных знаков</a></li>
+              </ul>
+            </li>
+            <li class="col-1-4-lg"><a class="page-footer__nav-link" href="">Патентование</a>
+              <ul class="page-footer__nav-list">
+                <li><a class="page-footer__nav-link" href="">Патент на изобретение</a></li>
+                <li><a class="page-footer__nav-link" href="">Патент на полезную модель</a></li>
+                <li><a class="page-footer__nav-link" href="">Патент на промышленный образец</a></li>
+                <li><a class="page-footer__nav-link" href="">Патентный поиск</a></li>
+                <li><a class="page-footer__nav-link" href="">Патентные поверенные</a></li>
+              </ul>
+            </li>
+            <li class="col-1-4-lg"><a class="page-footer__nav-link" href="">Договоры</a>
+              <ul class="page-footer__nav-list">
+                <li><a class="page-footer__nav-link" href="">Лицензионный договор</a></li>
+                <li><a class="page-footer__nav-link" href="">Договор отчуждения</a></li>
+                <li><a class="page-footer__nav-link" href="">Договор коммерческой концессии</a></li>
+                <li><a class="page-footer__nav-link" href="">Договор авторского заказа</a></li>
+                <li><a class="page-footer__nav-link" href="">Залог исключительных прав</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="page-footer__links row-sm" data-target="other-wiseadvice-companies">
+            <li class="col-1-2-cycle-sm col-1-3-cycle-md"><a class="underlined underlined--white" href="http://arplaw.ru/"><b>Арбитражное адвокатское бюро «АРП»</b></a><br>арбитраж, споры и конфликты, юридические услуги</li>
+            <li class="col-1-2-cycle-sm col-1-3-cycle-md"><a class="underlined underlined--white" href="http://1c-wiseadvice.ru/book-keeping/"><b>Бухгалтерские услуги в Москве</b></a></li>
+            <li class="col-1-2-cycle-sm col-1-3-cycle-md"><a class="underlined underlined--white" href="http://arplaw.ru/"><b>Налоговые адвокаты и юристы</b></a><br>налоговые проверки ИФНС, ОБЭП, возмещение НДС</li>
+            <li class="col-1-2-cycle-sm col-1-3-cycle-md"><a class="underlined underlined--white" href="http://www.pravovest-audit.ru"><b>Аудиторская фирма «WiseAdvice»</b></a><br>аудиторские услуги по РСБУ и МСФО</li>
+            <li class="col-1-2-cycle-sm col-1-3-cycle-md"><a class="underlined underlined--white" href="http://intelis-it.ru/"><b>Услуги 1С Франчайзи</b></a><br>внедрение, сопровождение, проекты по 1С</li>
+            <li class="col-1-2-cycle-sm col-1-3-cycle-md"><a class="underlined underlined--white" href="http://www.damages.ru"><b>Независимая экспертиза №1 «Хонест»</b></a><br>автоэкспертиза, возмещение ущерба от ДТП, залива и пр.</li>
+            <li class="col-1-2-cycle-sm col-1-3-cycle-md"><a class="underlined underlined--white" href="http://www.intelis-ocenka.ru/"><b>Услуги по независимой оценке</b></a><br>оценка недвижимости, оборудования, бизнеса</li>
+            <li class="col-1-2-cycle-sm col-1-3-cycle-md"><a class="underlined underlined--white" href="http://www.1cashflow.ru/"><b>Программы на 1С - «Финансист»</b></a><br>автоматизация бюджетирования, казначейства, упр.учета</li>
+            <li class="col-1-2-cycle-sm col-1-3-cycle-md"><a class="underlined underlined--white" href="http://you-right.ru/"><b>Линейка программ «Юрайт»</b></a><br>программы для юристов и юридических фирм</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="modal" id="call-order">
+      <form class="form form--mt0 form--call-order js-form">
+        <div class="form-header">Заказ обратного звонка</div>
+        <div class="form-row">
+          <div class="form-col form-col-1-2 form-col--pb0">
+            <div class="form-input form-input--text">
+              <label for="form-input-10-1">Ваше имя<span class="asterisk">*</span></label>
+              <input id="form-input-10-1" type="text" placeholder="Сергей Заказчиков">
+            </div>
+          </div>
+          <div class="form-col form-col-1-2">
+            <div class="form-input form-input--text">
+              <label for="form-input-10-2">Телефон<span class="asterisk">*</span></label>
+              <input id="form-input-10-2" type="text" placeholder="+7 (925) 490-22-10">
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="form-row">
+          <div class="form-col form-col--pb0">
+            <div class="form-input-title form-input-title--radio">Что вас интересует?</div>
+          </div>
+          <div class="form-col form-col-1-2 form-col--pt0 form-col--pb0">
+            <div class="form-input form-input--radio js-form-radio-choise">
+              <div class="form-radio-wrapper">
+                <label class="input-radio">
+                  <input type="radio" name="form-input-10-3" checked> Товарные знаки
+                </label>
+                <label class="input-radio">
+                  <input type="radio" name="form-input-10-3"> Патенты (изобретения, полезные модели, пром. образцы)
+                </label>
+                <label class="input-radio">
+                  <input type="radio" name="form-input-10-3"> Программы ЭВМ
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="form-col form-col-1-2 form-col--pt0 form-col--pb0">
+            <div class="form-input form-input--radio js-form-radio-choise">
+              <div class="form-radio-wrapper">
+                <label class="input-radio">
+                  <input type="radio" name="form-input-10-3"> Патентные споры
+                </label>
+                <label class="input-radio">
+                  <input type="radio" name="form-input-10-3"> Другое
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="form-row">
+          <div class="form-col form-col-1-2">
+            <div class="form-input form-input--select">
+              <label for="form-input-1-9">Удобное время связи:</label>
+              <div class="form-select-wrapper">
+                <select class="js-form-select-in-modal" id="form-input-1-9">
+                  <option value="0" selected>В течение дня</option>
+                  <option value="0">В течение дня2</option>
+                  <option value="0">В течение дня3</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form-col form-col-1-2">
+            <div class="form-input form-input--button">
+              <button class="btn btn-full" type="button">Заказать услугу</button>
+            </div>
+          </div>
+          <div class="form-col">
+            <div class="form-input form-input--check-footer js-form-privacy-agree">
+              <label class="input-checkbox">
+                <input id="form-input-1-17" type="checkbox" checked><span class="hide-md js-form-privacy-agree-short">Соглашаюсь на
+                  <button class="dotted js-form-privacy-agree-responsive-btn" type="button" target="_blank"><span>обработку персональных данных</span></button></span><span class="hide-up-to-md js-form-privacy-agree-full">Нажимая кнопку «Заказать услугу», я принимаю условия <a href="#" target="_blank">Пользовательского соглашения</a> и даю своё согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных <a href="#" target="_blank">Политикой конфиденциальности</a></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="modal" id="call-order2">
+      <form class="form form--mt0 form--call-order js-form">
+        <div class="form-row form-row--pb0">
+          <div class="form-col form-col--pt20">
+            <div class="form-input form-input--text">
+              <label for="form-input-10-1">Ваше имя<span class="asterisk">*</span></label>
+              <input id="form-input-10-1" type="text" required>
+            </div>
+          </div>
+          <div class="form-col form-col--pb0">
+            <div class="form-input form-input--text">
+              <label for="form-input-10-2">Телефон<span class="asterisk">*</span></label>
+              <input id="form-input-10-2" type="text" placeholder="+7 (925) 490-22-10" required>
+            </div>
+          </div>
+        </div>
+        <div class="form-row form-row--pt0">
+          <div class="form-col">
+            <div class="form-input form-input--button">
+              <button class="btn btn-full js-form-submit" type="button">Заказать</button>
+            </div>
+          </div>
+          <div class="form-col">
+            <div class="form-input form-input--check-footer js-form-privacy-agree">
+              <label class="input-checkbox">
+                <input id="form-input-1-17" type="checkbox" checked><span class="js-form-privacy-agree-short">Соглашаюсь на
+                  <button class="dotted js-form-privacy-agree-responsive-btn" type="button" target="_blank"><span>обработку персональных данных</span></button></span><span class="hide-xs js-form-privacy-agree-full">Нажимая кнопку «Заказать услугу», я принимаю условия <a href="#" target="_blank">Пользовательского соглашения</a> и даю своё согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных <a href="#" target="_blank">Политикой конфиденциальности</a><br> 
+                  <button class="input-checkbox__close-btn dotted js-form-privacy-agree-close-btn" type="button"><span>Скрыть</span></button></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="modal-lp modal-lp--road-modal" id="road-map">
+      <div class="text-center modal-lp__title">Центральный офис патентно-адвокатское бюро «Гардиум»</div>
+      <div class="row-lg">
+        <div class="col-3-4-lg">
+          <div>109456, Москва, Рязанский проспект, д.75, корп.4 <br class="hide-up-to-md">Время работы: Пн-Пт: 9:00 — 19:00</div>
+          <div><a href="tel:+74956658258">+7 (495) 665-82-58</a></div>
+          <div><a class="link-unstyled" href="mailto:info@gardium.ru">info@gardium.ru</a></div>
+        </div>
+        <div class="col-1-4-lg hide-up-to-lg"><a class="link-lp" href="#">Распечатать </a><span>| </span><a class="link-lp" href="#">Сохранить</a></div>
+      </div>
+      <div class="modal-lp__map" id="main-office-moscow"></div>
+      <div>
+        <div class="modal-lp__title">Как добраться</div>
+        <div class="modal-lp__subtitle">Пешком:</div>
+        <p>Станция метро «Рязанский проспект», первый вагон из центра, из метро направо, дойти до супермаркета, затем еще раз повернуть направо. Вы увидите две розово-серые башни.<br> Клиентский отдел находится во-второй  башне (от шлагбаума) на 6-м этаже. С поста охраны на первом этаже необходимо позвонить по внутреннему телефону 1506, затем с документом, удостоверяющим личность, подойти к охране.</p>
+        <div class="modal-lp__subtitle"> На машине:</div>
+        <p><b>Из центра:</b> на пересечении Рязанского проспекта и улицы Паперника развернуться на круге и повернуть на ул. Паперника. После второй автобусной остановки, не доезжая моста, повернуть во дворы. Либо ехать дальше по улице Паперника, после моста объехать авто заправку и свернуть на улицу Вострухина, затем на 4-й Вешняковский проезд.</p>
+        <p><b>В центр:</b> не сворачивая с Рязанского проспекта, проехать чуть дальше станции метро «Рязанский проспект», развернуться на круге, затем проехать в обратную сторону и повернуть на втором повороте.</p>
+      </div>
+    </div>
+    <div class="tooltipster-overlay"></div>
+    <div class="container">
+      <div class="buttons-round js-back-to-top">
+        <div class="buttons-round__left" data-target="hide-btn"><a href="tel:+74956658258">
+            <nobr>+7(495)6658258</nobr></a></div><!--div.buttons-round__right.buttons-round--hidden
+        <button class="btn-round btn-round--back-to-top js-back-to-top__btn" type="button">
+          <svg width="36" height="22"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../assets/sprites/sprites-svg.svg#icon-arrow-up"></use></svg>Наверх--></button>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+    <script type="text/javascript" src="../../js/vendor.js"></script>
+    <script type="text/javascript" src="../../js/main.js"></script>
+  </body>
+</html>
